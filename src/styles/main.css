@@ -1,3 +1,22 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+
 body {
-    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 800px;
+    max-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
