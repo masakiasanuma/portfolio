@@ -4,19 +4,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-    border-radius: 50%;
+.profile {
     max-height: 800px;
     max-width: 300px;
 }
 
-h1 {
-    text-align: center;
+.name {
+    font-size: 40px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.container {
+    display: grid;
+    grid-template-columns: 25% 75% auto;
+}
+
+.side {
+    grid-column-start: 1;
+    background: black;
+    color: white;
+    padding: 40px;
+    height: 100vh;
+}
+
+.main {
+    grid-column-start: 2;
+    padding: 40px;
 }
