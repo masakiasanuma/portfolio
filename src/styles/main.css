@@ -2,31 +2,30 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+}
+
+.center {
+    display: block;
+    margin: 40px auto 0 auto;
 }
 
 .profile {
-    max-height: 800px;
-    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 40px auto 0 auto;
 }
 
 .name {
     font-size: 40px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 25% 75% auto;
-}
-
 .side {
-    grid-column-start: 1;
     background: black;
     color: white;
-    padding: 40px;
     height: 100vh;
 }
 
 .main {
-    grid-column-start: 2;
-    padding: 40px;
+    padding: 0;
 }
