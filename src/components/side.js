@@ -24,7 +24,7 @@ const Side = () => {
                         </div>
                     )}
                 </Sticky>
-                <div className="temp">stop here</div>
+                <div className="temp"> </div>
             </StickyContainer>
         </div>
     )
