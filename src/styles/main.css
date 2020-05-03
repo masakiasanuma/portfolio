@@ -11,6 +11,16 @@ body {
     margin-top: 20px;
 }
 
+.stick {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.temp {
+    padding-top: 1300px;
+}
+
 .profile {
     max-height: 300px;
     display: block;
@@ -20,6 +30,11 @@ body {
 hr.bar {
     border-top: 1px solid white;
     width: 80%;
+}
+
+hr.separator {
+    border-top: 1px solid black;
+    width: 100%;
 }
 
 .firstName {
@@ -38,11 +53,18 @@ hr.bar {
 }
 
 .side {
-    background: black;
-    color: white;
+    min-height: 100% !important;
     height: 100vh;
+    color: white;
+    position: relative;
 }
 
 .main {
     padding: 60px;
+    background: white;
+}
+
+.section {
+    margin-top: 10px;
+    padding: 20px;
 }
