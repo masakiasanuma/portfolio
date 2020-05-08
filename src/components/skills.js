@@ -1,12 +1,41 @@
 import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap' 
 
 const Skills = () => {
     return (
-        <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a ultrices ipsum. Donec varius in orci quis bibendum. Etiam at odio sapien. Fusce fermentum sed nisl nec fermentum. Aliquam egestas diam sit amet mi lacinia, in fermentum tortor vestibulum. Nullam id dui sem. Morbi egestas id nibh ac volutpat.
-
-Mauris eu dolor auctor, lacinia libero mattis, sodales sem. In orci augue, commodo at tempus eget, cursus quis lorem. Sed commodo mollis diam, a aliquam massa tempor at. Nam sodales turpis fringilla nulla mattis, ac cursus quam rutrum. Aenean ultrices cursus quam. Praesent maximus, urna eget rutrum condimentum, nibh mauris rhoncus est, sed dictum diam neque et augue. Phasellus vel ullamcorper nibh. Etiam tincidunt hendrerit posuere. Aliquam gravida leo eu orci convallis tempus. Sed tortor nisl, viverra eget accumsan id, dapibus faucibus nibh. Sed euismod at libero eu ornare.
-        </div>
+        <Container>
+            <div className="entry">
+                <Row>
+                    <Col sm={4} md={3}><h4 className="skillLevel">Proficient: </h4></Col>
+                    <Col sm={8} md={9}>
+                        <i class="skillIcon devicon-java-plain colored" />
+                        <i class="skillIcon devicon-javascript-plain colored" />
+                        <i class="skillIcon devicon-html5-plain colored" />
+                        <i class="skillIcon devicon-c-plain colored" />
+                        <i class="skillIcon devicon-react-original colored" />
+                        <i class="skillIcon devicon-nodejs-plain colored" />
+                        <i class="skillIcon devicon-express-original colored" />
+                        <i class="skillIcon devicon-mongodb-plain colored" />
+                        <i class="skillIcon devicon-git-plain colored" />
+                        <i class="skillIcon devicon-ubuntu-plain colored" />
+                        <i class="skillIcon devicon-windows8-original colored" />
+                    </Col>
+                </Row>
+            </div>
+            <div className="entry">
+                <Row>
+                    <Col sm={4} md={3}><h4 className="skillLevel">Familiar: </h4></Col>
+                    <Col sm={8} md={9}>
+                        <i class="skillIcon devicon-css3-plain colored" />
+                        <i class="skillIcon devicon-python-plain colored" />
+                        <i class="skillIcon devicon-bootstrap-plain colored" />
+                        <i class="skillIcon devicon-jquery-plain colored" />
+                        <i class="skillIcon devicon-java-plain colored" />
+                        <i class="skillIcon devicon-apple-original colored" />
+                    </Col>
+                </Row>
+            </div>
+        </Container>
     )
 }
 

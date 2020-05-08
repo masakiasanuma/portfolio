@@ -18,7 +18,7 @@ const AboutMe = () => {
                 <p>
                     I am a third-year Computer Science undergraduate student at 
                     Georgia Tech interested in full-stack web development. 
-                    I am a musician, a coffee enthusiast, and a lover of
+                    I am a fingerstyle guitarist, a coffee enthusiast, and a lover of
                     anything cyberpunk related.
                 </p>
             </Jumbotron>

@@ -11,6 +11,41 @@ body {
     margin-top: 20px;
 }
 
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    float: right;
+}
+
+.entry {
+    padding-top: 30px;
+}
+
+.adjust {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.desc {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.skillLevel {
+    text-align: center;
+}
+
+.skillIcon {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.date {
+    font-size: 15px;
+}
+
 .stick {
     position: sticky;
     position: -webkit-sticky;
@@ -35,6 +70,10 @@ hr.bar {
 hr.separator {
     border-top: 1px solid black;
     width: 100%;
+}
+
+.sectionTitle {
+    padding-bottom: 0px;
 }
 
 .firstName {
