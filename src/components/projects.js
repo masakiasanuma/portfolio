@@ -1,11 +1,99 @@
 import React from 'react'
+import { Card, Button, Container, Row, Col } from 'react-bootstrap' 
 
 const Projects = () => {
     return (
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a ultrices ipsum. Donec varius in orci quis bibendum. Etiam at odio sapien. Fusce fermentum sed nisl nec fermentum. Aliquam egestas diam sit amet mi lacinia, in fermentum tortor vestibulum. Nullam id dui sem. Morbi egestas id nibh ac volutpat.
-
-Mauris eu dolor auctor, lacinia libero mattis, sodales sem. In orci augue, commodo at tempus eget, cursus quis lorem. Sed commodo mollis diam, a aliquam massa tempor at. Nam sodales turpis fringilla nulla mattis, ac cursus quam rutrum. Aenean ultrices cursus quam. Praesent maximus, urna eget rutrum condimentum, nibh mauris rhoncus est, sed dictum diam neque et augue. Phasellus vel ullamcorper nibh. Etiam tincidunt hendrerit posuere. Aliquam gravida leo eu orci convallis tempus. Sed tortor nisl, viverra eget accumsan id, dapibus faucibus nibh. Sed euismod at libero eu ornare.
+            <Container>
+                <Row>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
+                            <Card.Img variant="top" src={require("../images/steam.jpg")} />
+                            <Card.Body>
+                                <Card.Title>Before You Buy - Steam Games</Card.Title>
+                                <Card.Text>
+                                    Coming soon...
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Phonebook" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i class="projectSkill devicon-react-original colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
+                            <Card.Img variant="top" src={require("../images/phonebook.jpg")} />
+                            <Card.Body>
+                                <Card.Title>Phonebook</Card.Title>
+                                <Card.Text>
+                                    A web-app simulating a phone book. As I was learning how to implement both 
+                                    the frontend and the backend of web applications using popular technologies, I decided to start
+                                    this project to practice integrating both components into one full-stack application.
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Phonebook" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i class="projectSkill devicon-react-original colored" />
+                                <i class="projectSkill devicon-nodejs-plain colored" />
+                                <i class="projectSkill devicon-express-original colored" />
+                                <i class="projectSkill devicon-mongodb-plain colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
+                            <Card.Img variant="top" src={require("../images/zappay.png")} />
+                            <Card.Body>
+                                <Card.Title>Zap Pay</Card.Title>
+                                <Card.Text>
+                                    For HackGT 2019, my team created a mobile application and an iMessage extension that provides a secure peer-to-peer banking experience. 
+                                    Inspired from platforms like Venmo and Apple Pay, we explored new ways to make easy, quick, and secure transfers.
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://devpost.com/software/zap-pay" target="_blank" rel="noopener noreferrer">Devpost</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i class="projectSkill devicon-python-plain colored" />
+                                <i class="projectSkill devicon-swift-plain colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
+                            <Card.Img className="projectImg" variant="top" src={require("../images/rgb.png")} />
+                            <Card.Body>
+                                <Card.Title>RGB Color Guessing Game</Card.Title>
+                                <Card.Text>
+                                    A simple web-based game where the user guesses the color based on the given RGB. 
+                                    With two difficulties to play with, this game will test your perception of color
+                                    through the RGB system!
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/RGB-Game" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i class="projectSkill devicon-html5-plain colored" />
+                                <i class="projectSkill devicon-css3-plain colored" />
+                                <i class="projectSkill devicon-javascript-plain colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
+                            <Card.Img className="projectImg" variant="top" src={require("../images/tetris.jpg")} />
+                            <Card.Body>
+                            <Card.Title>GBA Tetris</Card.Title>
+                                <Card.Text>
+                                    The C implementation of the classic game of Tetris for the Gameboy Advance.
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/GBA-Tetris" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i class="projectSkill devicon-c-plain colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

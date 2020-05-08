@@ -39,7 +39,16 @@ body {
 .skillIcon {
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.projectSkill {
+    padding: 2px;
+    font-size: 30px;
+}
+
+.projectLink {
+    color: white;
 }
 
 .date {
@@ -53,7 +62,7 @@ body {
 }
 
 .temp {
-    padding-top: 1300px;
+    padding-top: 2400px;
 }
 
 .profile {
@@ -96,6 +105,10 @@ hr.separator {
     height: 100vh;
     color: white;
     position: relative;
+}
+
+.projCard {
+    padding: 10px;
 }
 
 .main {
