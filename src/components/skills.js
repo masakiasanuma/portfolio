@@ -30,7 +30,6 @@ const Skills = () => {
                         <i class="skillIcon devicon-python-plain colored" />
                         <i class="skillIcon devicon-bootstrap-plain colored" />
                         <i class="skillIcon devicon-jquery-plain colored" />
-                        <i class="skillIcon devicon-java-plain colored" />
                         <i class="skillIcon devicon-apple-original colored" />
                     </Col>
                 </Row>
