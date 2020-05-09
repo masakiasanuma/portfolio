@@ -6,8 +6,8 @@ const Skills = () => {
         <Container>
             <div className="entry">
                 <Row>
-                    <Col sm={4} md={3}><h4 className="skillLevel">Proficient: </h4></Col>
-                    <Col sm={8} md={9}>
+                    <Col xs={12} sm={4} md={3}><h4 className="skillLevel">Proficient: </h4></Col>
+                    <Col xs={12} sm={8} md={9}>
                         <i class="skillIcon devicon-java-plain colored" />
                         <i class="skillIcon devicon-javascript-plain colored" />
                         <i class="skillIcon devicon-html5-plain colored" />
@@ -24,8 +24,8 @@ const Skills = () => {
             </div>
             <div className="entry">
                 <Row>
-                    <Col sm={4} md={3}><h4 className="skillLevel">Familiar: </h4></Col>
-                    <Col sm={8} md={9}>
+                    <Col xs={12} sm={4} md={3}><h4 className="skillLevel">Familiar: </h4></Col>
+                    <Col xs={12} sm={8} md={9}>
                         <i class="skillIcon devicon-css3-plain colored" />
                         <i class="skillIcon devicon-python-plain colored" />
                         <i class="skillIcon devicon-bootstrap-plain colored" />

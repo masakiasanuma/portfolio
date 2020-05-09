@@ -11,7 +11,7 @@ const Experience = () => {
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>IT Support Assistant <span className="date">Oct 2018 - April 2020</span></h3>
-                        <h4><a href="https://support.cc.gatech.edu/" target="_blank" rel="noopener noreferrer">Technology Services Organization</a> <span className="date">Atlanta, GA</span></h4>
+                        <h4><span className="light"><a href="https://support.cc.gatech.edu/" target="_blank" rel="noopener noreferrer">Technology Services Organization</a></span> <span className="date">Atlanta, GA</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">
@@ -28,7 +28,7 @@ const Experience = () => {
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>Computer Science Teacher <span className="date">May 2019 - Aug 2019</span></h3>
-                        <h4><a href="https://jubilateacademy.com/" target="_blank" rel="noopener noreferrer">Jubilate Academy</a> <span className="date">Torrance, CA</span></h4>
+                        <h4><span className="light"><a href="https://jubilateacademy.com/" target="_blank" rel="noopener noreferrer">Jubilate Academy</a></span> <span className="date">Torrance, CA</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">
@@ -46,7 +46,7 @@ const Experience = () => {
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>AP Computer Science A Tutor <span className="date">May 2019 - Aug 2019</span></h3>
-                        <h4>A Plus Academy <span className="date">Torrance, CA</span></h4>
+                        <h4><span className="light">A Plus Academy</span> <span className="date">Torrance, CA</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">
@@ -64,7 +64,7 @@ const Experience = () => {
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>Software Engineering Intern <span className="date">Jun 2017 - Aug 2017</span></h3>
-                        <h4><a href="https://www.boeing.com/space/boeing-satellite-family/" target="_blank" rel="noopener noreferrer">Boeing</a> <span className="date">El Segundo, CA</span></h4>
+                        <h4><span className="light"><a href="https://www.boeing.com/space/boeing-satellite-family/" target="_blank" rel="noopener noreferrer">The Boeing Company</a></span> <span className="date">El Segundo, CA</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">

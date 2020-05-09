@@ -5,10 +5,13 @@ import AboutMe from './components/aboutme'
 import Experience from './components/experience'
 import Skills from './components/skills'
 import Projects from './components/projects'
+import Hobbies from './components/hobbies'
+import Education from './components/education'
 
 const App = () => {
     const containerStyle = {
-        backgroundColor: 'black'
+        backgroundColor: 'black',
+        fontFamily: 'Jost'
     }
 
     return (
@@ -34,17 +37,19 @@ const App = () => {
                                 <Projects />
                             </Row>
                             <Row className="section">
+                                <h1 className="header sectionTitle">Education <span role="img" aria-label="school">🏫</span></h1>
+                                <hr className="separator" />
+                                <Education />
+                            </Row>
+                            <Row className="section">
                                 <h1 className="header">Skills <span role="img" aria-label="tools">🧰</span></h1>
                                 <hr className="separator" />
                                 <Skills />
                             </Row>
                             <Row className="section">
-                                <h2 className="header">Activities</h2>
+                                <h1 className="header">Hobbies <span role="img" aria-label="guitar">🎸</span><span role="img" aria-label="coffee">☕</span></h1>
                                 <hr className="separator" />
-                            </Row>
-                            <Row className="section">
-                                <h2 className="header">Hobbies</h2>
-                                <hr className="separator" />
+                                <Hobbies />
                             </Row>
                         </Container>
                     </Col>

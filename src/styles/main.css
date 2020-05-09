@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Jost', sans-serif;
     word-wrap: break-word;
+}
+
+.light {
+    font-weight: 300;
 }
 
 .center {
@@ -26,10 +32,27 @@ body {
     margin-bottom: auto;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
 .desc {
     padding-top: 30px;
     padding-left: 20px;
     font-size: 18px;
+}
+
+.hobbyDesc {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.video {
+    padding-left: 20px;
 }
 
 .skillLevel {
@@ -53,6 +76,7 @@ body {
 
 .date {
     font-size: 15px;
+    font-weight: 400;
 }
 
 .stick {

@@ -14,7 +14,7 @@ const Projects = () => {
                                 <Card.Text>
                                     Coming soon...
                                 </Card.Text>
-                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Phonebook" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                                <Button variant="success"><a className="projectLink" href="/" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
                                 <i class="projectSkill devicon-react-original colored" />
