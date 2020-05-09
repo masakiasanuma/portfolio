@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1fbf5ae7.chunk.css",
+    "main.css": "/portfolio/static/css/main.6d895e47.chunk.css",
     "main.js": "/portfolio/static/js/main.1daa991b.chunk.js",
     "main.js.map": "/portfolio/static/js/main.1daa991b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
@@ -9,10 +9,10 @@
     "static/js/2.6b85568c.chunk.js": "/portfolio/static/js/2.6b85568c.chunk.js",
     "static/js/2.6b85568c.chunk.js.map": "/portfolio/static/js/2.6b85568c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1264f34579be98d282cd81cbc8f9adf9.js": "/portfolio/precache-manifest.1264f34579be98d282cd81cbc8f9adf9.js",
+    "precache-manifest.f4e88e9548fbf237f9e4405895c38d8b.js": "/portfolio/precache-manifest.f4e88e9548fbf237f9e4405895c38d8b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/portfolio/static/css/2.69121389.chunk.css.map",
-    "static/css/main.1fbf5ae7.chunk.css.map": "/portfolio/static/css/main.1fbf5ae7.chunk.css.map",
+    "static/css/main.6d895e47.chunk.css.map": "/portfolio/static/css/main.6d895e47.chunk.css.map",
     "static/js/2.6b85568c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6b85568c.chunk.js.LICENSE.txt",
     "static/media/CoC.jpeg": "/portfolio/static/media/CoC.d4beeb7d.jpeg",
     "static/media/boeing.jpg": "/portfolio/static/media/boeing.c7682b70.jpg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.f18b6ef5.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.6b85568c.chunk.js",
-    "static/css/main.1fbf5ae7.chunk.css",
+    "static/css/main.6d895e47.chunk.css",
     "static/js/main.1daa991b.chunk.js"
   ]
 }
