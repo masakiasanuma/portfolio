@@ -16,7 +16,7 @@ const Experience = () => {
                 </Row>
                 <Row className="desc">
                     <p>
-                        I assisted resolving over 200 tickets of hardware/software issues for the students, faculty, and staff of the College of Computing.
+                        I assisted in resolving over 200 tickets of hardware/software issues for the students, faculty, and staff of the College of Computing.
                         I worked closely with other assistants and IT Support Professionals to document the troubleshooting process of common issues.
                     </p>
                 </Row>
