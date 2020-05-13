@@ -8,16 +8,20 @@ const Projects = () => {
                 <Row>
                     <Col className="projCard" sm={12} md={6} lg={4}>
                         <Card border="dark" bg="light">
-                            <Card.Img variant="top" src={require("../images/steam.jpg")} />
+                            <Card.Img variant="top" src={require("../images/mangadexterity.png")} />
                             <Card.Body>
-                                <Card.Title>Before You Buy - Steam Games</Card.Title>
+                                <Card.Title>Mangadexterity</Card.Title>
                                 <Card.Text>
-                                    Coming soon...
+                                    A web-app that allows the users to read any manga (Japanese comics) series from an online manga reader called Mangadex. 
+                                    All the information and the pages of the manga series are retrieved from the Mangadex API.
                                 </Card.Text>
-                                <Button variant="success"><a className="projectLink" href="/" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Mangadexterity" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
                                 <i title="React.js" class="projectSkill devicon-react-original colored" />
+                                <i title="Node.js" class="projectSkill devicon-nodejs-plain colored" />
+                                <i title="Express.js" class="projectSkill devicon-express-original colored" />
+                                <i title="Bootstrap" class="projectSkill devicon-bootstrap-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -38,6 +42,23 @@ const Projects = () => {
                                 <i title="Node.js" class="projectSkill devicon-nodejs-plain colored" />
                                 <i title="Express.js" class="projectSkill devicon-express-original colored" />
                                 <i title="MongoDB" class="projectSkill devicon-mongodb-plain colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
+                            <Card.Img variant="top" src={require("../images/portfolio.png")} />
+                            <Card.Body>
+                                <Card.Title>Portfolio</Card.Title>
+                                <Card.Text>
+                                    The website that you are on right now! 
+                                    Made from the ground-up using React and Bootstrap.
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/portfolio" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i title="React.js" class="projectSkill devicon-react-original colored" />
+                                <i title="Bootstrap" class="projectSkill devicon-bootstrap-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>

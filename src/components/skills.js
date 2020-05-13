@@ -31,6 +31,7 @@ const Skills = () => {
                         <i title="Bootstrap" class="skillIcon devicon-bootstrap-plain colored" />
                         <i title="jQuery" class="skillIcon devicon-jquery-plain colored" />
                         <i title="MacOS" class="skillIcon devicon-apple-original colored" />
+                        <i title="MySQL" class="skillIcon devicon-mysql-plain colored"></i>
                     </Col>
                 </Row>
             </div>

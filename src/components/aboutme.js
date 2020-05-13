@@ -8,6 +8,8 @@ const AboutMe = () => {
         padding: '40px',
         fontWeight: '300',
         fontSize: '25px',
+        backgroundColor: '#6495ED',
+        color: 'white'
     }
 
     return (
