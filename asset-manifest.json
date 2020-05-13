@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ea2a0a95.chunk.css",
-    "main.js": "/portfolio/static/js/main.8a191342.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8a191342.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ee750c83.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ee750c83.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
     "static/css/2.69121389.chunk.css": "/portfolio/static/css/2.69121389.chunk.css",
-    "static/js/2.6b85568c.chunk.js": "/portfolio/static/js/2.6b85568c.chunk.js",
-    "static/js/2.6b85568c.chunk.js.map": "/portfolio/static/js/2.6b85568c.chunk.js.map",
+    "static/js/2.eab59bf0.chunk.js": "/portfolio/static/js/2.eab59bf0.chunk.js",
+    "static/js/2.eab59bf0.chunk.js.map": "/portfolio/static/js/2.eab59bf0.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.15853502d7283e60921340c5405c1133.js": "/portfolio/precache-manifest.15853502d7283e60921340c5405c1133.js",
+    "precache-manifest.be030ddbdea5b6a117682b15c09e5f6c.js": "/portfolio/precache-manifest.be030ddbdea5b6a117682b15c09e5f6c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/portfolio/static/css/2.69121389.chunk.css.map",
     "static/css/main.ea2a0a95.chunk.css.map": "/portfolio/static/css/main.ea2a0a95.chunk.css.map",
-    "static/js/2.6b85568c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6b85568c.chunk.js.LICENSE.txt",
+    "static/js/2.eab59bf0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.eab59bf0.chunk.js.LICENSE.txt",
     "static/media/CoC.jpeg": "/portfolio/static/media/CoC.d4beeb7d.jpeg",
     "static/media/boeing.jpg": "/portfolio/static/media/boeing.c7682b70.jpg",
     "static/media/devicon.min.css": "/portfolio/static/media/devicon.74e6e6c3.svg",
     "static/media/gtlogo.png": "/portfolio/static/media/gtlogo.ada45412.png",
     "static/media/jubilate.jpg": "/portfolio/static/media/jubilate.724043a4.jpg",
+    "static/media/mangadexterity.png": "/portfolio/static/media/mangadexterity.d975ca31.png",
     "static/media/phonebook.jpg": "/portfolio/static/media/phonebook.308eab83.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.346c079e.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.94e89ae2.jpg",
     "static/media/rgb.png": "/portfolio/static/media/rgb.5feae08c.png",
     "static/media/spartans.jpg": "/portfolio/static/media/spartans.b8a8fdf5.jpg",
-    "static/media/steam.jpg": "/portfolio/static/media/steam.2f424501.jpg",
     "static/media/tetris.jpg": "/portfolio/static/media/tetris.59bec0c5.jpg",
     "static/media/torrance.png": "/portfolio/static/media/torrance.352846eb.png",
     "static/media/zappay.png": "/portfolio/static/media/zappay.96d7d96c.png"
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.f18b6ef5.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.6b85568c.chunk.js",
+    "static/js/2.eab59bf0.chunk.js",
     "static/css/main.ea2a0a95.chunk.css",
-    "static/js/main.8a191342.chunk.js"
+    "static/js/main.ee750c83.chunk.js"
   ]
 }

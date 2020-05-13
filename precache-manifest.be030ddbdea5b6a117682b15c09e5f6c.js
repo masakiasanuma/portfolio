@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcc4a7d16767912bcd254912b2d14888",
+    "revision": "a339ea559aad9176194cb751430412fc",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b3010438bcb3c78f2945",
+    "revision": "124fea2869f6314ae39b",
     "url": "/portfolio/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "4773c4efc48c130c62f1",
+    "revision": "1f4201a7cef8bc53f128",
     "url": "/portfolio/static/css/main.ea2a0a95.chunk.css"
   },
   {
-    "revision": "b3010438bcb3c78f2945",
-    "url": "/portfolio/static/js/2.6b85568c.chunk.js"
+    "revision": "124fea2869f6314ae39b",
+    "url": "/portfolio/static/js/2.eab59bf0.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.6b85568c.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.eab59bf0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4773c4efc48c130c62f1",
-    "url": "/portfolio/static/js/main.8a191342.chunk.js"
+    "revision": "1f4201a7cef8bc53f128",
+    "url": "/portfolio/static/js/main.ee750c83.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -60,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/jubilate.724043a4.jpg"
   },
   {
+    "revision": "d975ca319add24b8387a0b107b7ca736",
+    "url": "/portfolio/static/media/mangadexterity.d975ca31.png"
+  },
+  {
     "revision": "308eab8351f3ce107f12ed7b8bd262e4",
     "url": "/portfolio/static/media/phonebook.308eab83.jpg"
+  },
+  {
+    "revision": "346c079e9842e25d709740dc13fe4fea",
+    "url": "/portfolio/static/media/portfolio.346c079e.png"
   },
   {
     "revision": "94e89ae20dd0af88d524f7cd2175d810",
@@ -74,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8a8fdf5f34b3e089907ddc29f4140c3",
     "url": "/portfolio/static/media/spartans.b8a8fdf5.jpg"
-  },
-  {
-    "revision": "2f424501fb24c0d526101c8e7d10f498",
-    "url": "/portfolio/static/media/steam.2f424501.jpg"
   },
   {
     "revision": "59bec0c5d6111c01a0f83d2f16658fe7",
