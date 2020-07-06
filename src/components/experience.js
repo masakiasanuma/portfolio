@@ -7,10 +7,42 @@ const Experience = () => {
             <div>
                 <Row>
                     <Col xs={5} sm={4} md={2}>
+                        <Image className="logo" src={require("../images/KPMG.jpg")} fluid />
+                    </Col>
+                    <Col className="adjust" xs={7} sm={8} md={10}>
+                        <h3>Software Engineering Intern <span className="date">Jan 2021 - Jul 2021</span></h3>
+                        <h4><span className="light"><a href="https://home.kpmg/jp/en/home/about/kit.html" target="_blank" rel="noopener noreferrer">KPMG Ignition Tokyo</a></span> <span className="date">Tokyo, Japan</span></h4>
+                    </Col>
+                </Row>
+                <Row className="desc">
+                    <p>
+                        Incoming intern.
+                    </p>
+                </Row>
+            </div>
+            <div className="entry">
+                <Row>
+                    <Col xs={5} sm={4} md={2}>
+                        <Image className="logo" src={require("../images/ultimate_software.jpg")} fluid />
+                    </Col>
+                    <Col className="adjust" xs={7} sm={8} md={10}>
+                        <h3>Software Engineering Intern <span className="date">Sep 2020 - Dec 2020</span></h3>
+                        <h4><span className="light"><a href="https://www.ultimatesoftware.com/" target="_blank" rel="noopener noreferrer">Ultimate Software</a></span> <span className="date">Weston, FL</span></h4>
+                    </Col>
+                </Row>
+                <Row className="desc">
+                    <p>
+                        Incoming intern.
+                    </p>
+                </Row>
+            </div>
+            <div className="entry">
+                <Row>
+                    <Col xs={5} sm={4} md={2}>
                         <Image className="logo" src={require("../images/CoC.jpeg")} fluid />
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
-                        <h3>IT Support Assistant <span className="date">Oct 2018 - April 2020</span></h3>
+                        <h3>IT Support Assistant <span className="date">Oct 2018 - Apr 2020</span></h3>
                         <h4><span className="light"><a href="https://support.cc.gatech.edu/" target="_blank" rel="noopener noreferrer">Technology Services Organization</a></span> <span className="date">Atlanta, GA</span></h4>
                     </Col>
                 </Row>
