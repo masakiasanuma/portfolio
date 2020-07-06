@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ea2a0a95.chunk.css",
-    "main.js": "/portfolio/static/js/main.ee750c83.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ee750c83.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.78841903.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.78841903.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
     "static/css/2.69121389.chunk.css": "/portfolio/static/css/2.69121389.chunk.css",
-    "static/js/2.eab59bf0.chunk.js": "/portfolio/static/js/2.eab59bf0.chunk.js",
-    "static/js/2.eab59bf0.chunk.js.map": "/portfolio/static/js/2.eab59bf0.chunk.js.map",
+    "static/js/2.425c238e.chunk.js": "/portfolio/static/js/2.425c238e.chunk.js",
+    "static/js/2.425c238e.chunk.js.map": "/portfolio/static/js/2.425c238e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.be030ddbdea5b6a117682b15c09e5f6c.js": "/portfolio/precache-manifest.be030ddbdea5b6a117682b15c09e5f6c.js",
+    "precache-manifest.2df739d6d57a2d87883db3cc603e87a1.js": "/portfolio/precache-manifest.2df739d6d57a2d87883db3cc603e87a1.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/portfolio/static/css/2.69121389.chunk.css.map",
     "static/css/main.ea2a0a95.chunk.css.map": "/portfolio/static/css/main.ea2a0a95.chunk.css.map",
-    "static/js/2.eab59bf0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.eab59bf0.chunk.js.LICENSE.txt",
+    "static/js/2.425c238e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.425c238e.chunk.js.LICENSE.txt",
     "static/media/CoC.jpeg": "/portfolio/static/media/CoC.d4beeb7d.jpeg",
+    "static/media/KPMG.jpg": "/portfolio/static/media/KPMG.214a6549.jpg",
     "static/media/boeing.jpg": "/portfolio/static/media/boeing.c7682b70.jpg",
     "static/media/devicon.min.css": "/portfolio/static/media/devicon.74e6e6c3.svg",
     "static/media/gtlogo.png": "/portfolio/static/media/gtlogo.ada45412.png",
@@ -27,13 +28,14 @@
     "static/media/spartans.jpg": "/portfolio/static/media/spartans.b8a8fdf5.jpg",
     "static/media/tetris.jpg": "/portfolio/static/media/tetris.59bec0c5.jpg",
     "static/media/torrance.png": "/portfolio/static/media/torrance.352846eb.png",
+    "static/media/ultimate_software.jpg": "/portfolio/static/media/ultimate_software.29e75e05.jpg",
     "static/media/zappay.png": "/portfolio/static/media/zappay.96d7d96c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f18b6ef5.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.eab59bf0.chunk.js",
+    "static/js/2.425c238e.chunk.js",
     "static/css/main.ea2a0a95.chunk.css",
-    "static/js/main.ee750c83.chunk.js"
+    "static/js/main.78841903.chunk.js"
   ]
 }

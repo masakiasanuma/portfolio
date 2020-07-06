@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a339ea559aad9176194cb751430412fc",
+    "revision": "216388278055e99decabfb692e0893f9",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "124fea2869f6314ae39b",
+    "revision": "d815fb65afa6d9d1b117",
     "url": "/portfolio/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "1f4201a7cef8bc53f128",
+    "revision": "29c348662aa0c2429f0f",
     "url": "/portfolio/static/css/main.ea2a0a95.chunk.css"
   },
   {
-    "revision": "124fea2869f6314ae39b",
-    "url": "/portfolio/static/js/2.eab59bf0.chunk.js"
+    "revision": "d815fb65afa6d9d1b117",
+    "url": "/portfolio/static/js/2.425c238e.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.eab59bf0.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.425c238e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f4201a7cef8bc53f128",
-    "url": "/portfolio/static/js/main.ee750c83.chunk.js"
+    "revision": "29c348662aa0c2429f0f",
+    "url": "/portfolio/static/js/main.78841903.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d4beeb7d768f44c9f6c625592aa4ccab",
     "url": "/portfolio/static/media/CoC.d4beeb7d.jpeg"
+  },
+  {
+    "revision": "214a654965d3ebf44b5a032e7d8763ac",
+    "url": "/portfolio/static/media/KPMG.214a6549.jpg"
   },
   {
     "revision": "c7682b70e79f97caaa6420bcc1352373",
@@ -90,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "352846ebe4fe37deaa0b805e5998f955",
     "url": "/portfolio/static/media/torrance.352846eb.png"
+  },
+  {
+    "revision": "29e75e050deee5c7b9be7dcddc558b28",
+    "url": "/portfolio/static/media/ultimate_software.29e75e05.jpg"
   },
   {
     "revision": "96d7d96cc2603328fa5d8af823743954",
