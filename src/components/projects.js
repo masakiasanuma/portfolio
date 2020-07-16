@@ -13,9 +13,10 @@ const Projects = () => {
                                 <Card.Title>Mass Transit Simulation Application</Card.Title>
                                 <Card.Text>
                                     A discrete-event simulation that allows buses to travel along different routes while transporting riders 
-                                    to travel along different routes while transporting riders to different stops.
+                                    to travel along different routes while transporting riders to different stops. Download the project below 
+                                    and start the app by running the execute.bat file!
                                 </Card.Text>
-                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Mangadexterity" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                                <Button variant="success"><a className="projectLink" href="mts_app.zip" download target="_blank" rel="noopener noreferrer">Download</a></Button>
                             </Card.Body>
                             <Card.Footer>
                                 <i title="Java" class="projectSkill devicon-java-plain colored" />
