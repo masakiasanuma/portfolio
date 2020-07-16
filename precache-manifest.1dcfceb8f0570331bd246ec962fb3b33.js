@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "793437e607fed45cbca4814e9751083b",
+    "revision": "5b1168cb2afbd421e9a07e8204920175",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "f7f25be6a3325c2299a2",
+    "revision": "5366ca1487fdeb15532d",
     "url": "/portfolio/static/css/main.ea2a0a95.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.55b74825.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7f25be6a3325c2299a2",
-    "url": "/portfolio/static/js/main.200a99a3.chunk.js"
+    "revision": "5366ca1487fdeb15532d",
+    "url": "/portfolio/static/js/main.e19036b0.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/KPMG.214a6549.jpg"
   },
   {
-    "revision": "3384cf3aa09c56dc1515b48fb72df951",
-    "url": "/portfolio/static/media/MTS.3384cf3a.png"
+    "revision": "10d4351c234b9345d5b0b5e4123ac74a",
+    "url": "/portfolio/static/media/MTS.10d4351c.png"
   },
   {
     "revision": "c7682b70e79f97caaa6420bcc1352373",
