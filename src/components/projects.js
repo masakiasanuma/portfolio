@@ -8,6 +8,22 @@ const Projects = () => {
                 <Row>
                     <Col className="projCard" sm={12} md={6} lg={4}>
                         <Card border="dark" bg="light">
+                            <Card.Img variant="top" src={require("../images/MTS.png")} />
+                            <Card.Body>
+                                <Card.Title>Mass Transit Simulation Application</Card.Title>
+                                <Card.Text>
+                                    A discrete-event simulation that allows buses to travel along different routes while transporting riders 
+                                    to travel along different routes while transporting riders to different stops.
+                                </Card.Text>
+                                <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Mangadexterity" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
+                            </Card.Body>
+                            <Card.Footer>
+                                <i title="Java" class="projectSkill devicon-java-plain colored" />
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="projCard" sm={12} md={6} lg={4}>
+                        <Card border="dark" bg="light">
                             <Card.Img variant="top" src={require("../images/mangadexterity.png")} />
                             <Card.Body>
                                 <Card.Title>Mangadexterity</Card.Title>
