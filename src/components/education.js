@@ -10,14 +10,14 @@ const Education = () => {
                         <Image className="logo" src={require("../images/gtlogo.png")} fluid />
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
-                        <h3>Georgia Institute of Technology <span className="date">Aug 2018 - May 2022 (Expected)</span></h3>
+                        <h3>Georgia Institute of Technology <span className="date">Aug 2018 - Dec 2022 (Expected)</span></h3>
                         <h4><span className="light">Bachelor of Science in Computer Science </span><span className="date">Atlanta, GA</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">
                     <ul>
                         <li>
-                            <b>Relevant Coursework:</b> Data Structures, Algorithms, Computer Networking, Computer Architecture, Object-Oriented Programming, Software Design 
+                            <b>Relevant Coursework:</b> Data Structures, Algorithms, Software Engineering, Software Design, Databases, Computer Networking, Object-Oriented Programming, Computer Architecture
                         </li>
                         <li>
                             <b>Activities:</b> Drummer at <a href="https://marchingband.gatech.edu/drumline" target="_blank" rel="noopener noreferrer">Yellow Jacket Marching Band</a>

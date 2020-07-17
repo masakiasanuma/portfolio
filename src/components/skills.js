@@ -17,6 +17,7 @@ const Skills = () => {
                         <i title="Express.js" class="skillIcon devicon-express-original colored" />
                         <i title="MongoDB" class="skillIcon devicon-mongodb-plain colored" />
                         <i title="Git" class="skillIcon devicon-git-plain colored" />
+                        <i title="MySQL" class="skillIcon devicon-mysql-plain colored"></i>
                         <i title="Ubuntu" class="skillIcon devicon-ubuntu-plain colored" />
                         <i title="Windows" class="skillIcon devicon-windows8-original colored" />
                     </Col>
@@ -31,7 +32,6 @@ const Skills = () => {
                         <i title="Bootstrap" class="skillIcon devicon-bootstrap-plain colored" />
                         <i title="jQuery" class="skillIcon devicon-jquery-plain colored" />
                         <i title="MacOS" class="skillIcon devicon-apple-original colored" />
-                        <i title="MySQL" class="skillIcon devicon-mysql-plain colored"></i>
                     </Col>
                 </Row>
             </div>
