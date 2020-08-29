@@ -19,7 +19,7 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="mts_app.zip" download target="_blank" rel="noopener noreferrer">Download</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="Java" class="projectSkill devicon-java-plain colored" />
+                                <i title="Java" className="projectSkill devicon-java-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -35,10 +35,10 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Mangadexterity" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="React.js" class="projectSkill devicon-react-original colored" />
-                                <i title="Node.js" class="projectSkill devicon-nodejs-plain colored" />
-                                <i title="Express.js" class="projectSkill devicon-express-original colored" />
-                                <i title="Bootstrap" class="projectSkill devicon-bootstrap-plain colored" />
+                                <i title="React.js" className="projectSkill devicon-react-original colored" />
+                                <i title="Node.js" className="projectSkill devicon-nodejs-plain colored" />
+                                <i title="Express.js" className="projectSkill devicon-express-original colored" />
+                                <i title="Bootstrap" className="projectSkill devicon-bootstrap-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -55,10 +55,10 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/Phonebook" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="React.js" class="projectSkill devicon-react-original colored" />
-                                <i title="Node.js" class="projectSkill devicon-nodejs-plain colored" />
-                                <i title="Express.js" class="projectSkill devicon-express-original colored" />
-                                <i title="MongoDB" class="projectSkill devicon-mongodb-plain colored" />
+                                <i title="React.js" className="projectSkill devicon-react-original colored" />
+                                <i title="Node.js" className="projectSkill devicon-nodejs-plain colored" />
+                                <i title="Express.js" className="projectSkill devicon-express-original colored" />
+                                <i title="MongoDB" className="projectSkill devicon-mongodb-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -74,8 +74,8 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/portfolio" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="React.js" class="projectSkill devicon-react-original colored" />
-                                <i title="Bootstrap" class="projectSkill devicon-bootstrap-plain colored" />
+                                <i title="React.js" className="projectSkill devicon-react-original colored" />
+                                <i title="Bootstrap" className="projectSkill devicon-bootstrap-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -91,8 +91,8 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="https://devpost.com/software/zap-pay" target="_blank" rel="noopener noreferrer">Devpost</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="Python" class="projectSkill devicon-python-plain colored" />
-                                <i title="Swift" class="projectSkill devicon-swift-plain colored" />
+                                <i title="Python" className="projectSkill devicon-python-plain colored" />
+                                <i title="Swift" className="projectSkill devicon-swift-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -109,9 +109,9 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/RGB-Game" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="HTML5" class="projectSkill devicon-html5-plain colored" />
-                                <i title="CSS3" class="projectSkill devicon-css3-plain colored" />
-                                <i title="Javascript" class="projectSkill devicon-javascript-plain colored" />
+                                <i title="HTML5" className="projectSkill devicon-html5-plain colored" />
+                                <i title="CSS3" className="projectSkill devicon-css3-plain colored" />
+                                <i title="Javascript" className="projectSkill devicon-javascript-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -126,7 +126,7 @@ const Projects = () => {
                                 <Button variant="success"><a className="projectLink" href="https://github.com/Masasasaki/GBA-Tetris" target="_blank" rel="noopener noreferrer">Github Repo</a></Button>
                             </Card.Body>
                             <Card.Footer>
-                                <i title="C" class="projectSkill devicon-c-plain colored" />
+                                <i title="C" className="projectSkill devicon-c-plain colored" />
                             </Card.Footer>
                         </Card>
                     </Col>

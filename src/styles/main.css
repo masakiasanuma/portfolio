@@ -49,10 +49,6 @@ li {
     font-size: 18px;
 }
 
-.video {
-    padding-left: 20px;
-}
-
 .skillLevel {
     text-align: center;
 }
@@ -141,4 +137,8 @@ hr.separator {
 .section {
     margin-top: 10px;
     padding: 20px;
+}
+
+.hobbyImages {
+    padding: 10px;
 }

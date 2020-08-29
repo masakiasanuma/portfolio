@@ -8,18 +8,18 @@ const Skills = () => {
                 <Row>
                     <Col xs={12} sm={4} md={3}><h4 className="skillLevel">Proficient: </h4></Col>
                     <Col xs={12} sm={8} md={9}>
-                        <i title="Java" class="skillIcon devicon-java-plain colored" />
-                        <i title="Javascript" class="skillIcon devicon-javascript-plain colored" />
-                        <i title="HTML5" class="skillIcon devicon-html5-plain colored" />
-                        <i title="CSS3" class="skillIcon devicon-css3-plain colored" />
-                        <i title="React.js" class="skillIcon devicon-react-original colored" />
-                        <i title="Node.js" class="skillIcon devicon-nodejs-plain colored" />
-                        <i title="Express.js" class="skillIcon devicon-express-original colored" />
-                        <i title="MongoDB" class="skillIcon devicon-mongodb-plain colored" />
-                        <i title="MySQL" class="skillIcon devicon-mysql-plain colored" />
-                        <i title="Git" class="skillIcon devicon-git-plain colored" />
-                        <i title="Ubuntu" class="skillIcon devicon-ubuntu-plain colored" />
-                        <i title="Windows" class="skillIcon devicon-windows8-original colored" />
+                        <i title="Java" className="skillIcon devicon-java-plain colored" />
+                        <i title="Javascript" className="skillIcon devicon-javascript-plain colored" />
+                        <i title="HTML5" className="skillIcon devicon-html5-plain colored" />
+                        <i title="CSS3" className="skillIcon devicon-css3-plain colored" />
+                        <i title="React.js" className="skillIcon devicon-react-original colored" />
+                        <i title="Node.js" className="skillIcon devicon-nodejs-plain colored" />
+                        <i title="Express.js" className="skillIcon devicon-express-original colored" />
+                        <i title="MongoDB" className="skillIcon devicon-mongodb-plain colored" />
+                        <i title="MySQL" className="skillIcon devicon-mysql-plain colored" />
+                        <i title="Git" className="skillIcon devicon-git-plain colored" />
+                        <i title="Ubuntu" className="skillIcon devicon-ubuntu-plain colored" />
+                        <i title="Windows" className="skillIcon devicon-windows8-original colored" />
                     </Col>
                 </Row>
             </div>
@@ -27,11 +27,11 @@ const Skills = () => {
                 <Row>
                     <Col xs={12} sm={4} md={3}><h4 className="skillLevel">Familiar: </h4></Col>
                     <Col xs={12} sm={8} md={9}>
-                        <i title="C" class="skillIcon devicon-c-plain colored" />
-                        <i title="Python" class="skillIcon devicon-python-plain colored" />
-                        <i title="Bootstrap" class="skillIcon devicon-bootstrap-plain colored" />
-                        <i title="jQuery" class="skillIcon devicon-jquery-plain colored" />
-                        <i title="MacOS" class="skillIcon devicon-apple-original colored" />
+                        <i title="C" className="skillIcon devicon-c-plain colored" />
+                        <i title="Python" className="skillIcon devicon-python-plain colored" />
+                        <i title="Bootstrap" className="skillIcon devicon-bootstrap-plain colored" />
+                        <i title="jQuery" className="skillIcon devicon-jquery-plain colored" />
+                        <i title="MacOS" className="skillIcon devicon-apple-original colored" />
                     </Col>
                 </Row>
             </div>
