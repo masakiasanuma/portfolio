@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90b18cf8b4cc367d6040f8e7736af672",
+    "revision": "295de21a56234c67ca78ef58dda2c051",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "11ab483ae95c55ca6bd7",
+    "revision": "000e79e0964dbc9f1a8d",
     "url": "/portfolio/static/css/main.c93c2180.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.e5f86f66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11ab483ae95c55ca6bd7",
-    "url": "/portfolio/static/js/main.70425266.chunk.js"
+    "revision": "000e79e0964dbc9f1a8d",
+    "url": "/portfolio/static/js/main.bedf9578.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/torrance.352846eb.png"
   },
   {
-    "revision": "29e75e050deee5c7b9be7dcddc558b28",
-    "url": "/portfolio/static/media/ultimate_software.29e75e05.jpg"
+    "revision": "6252839c8ffc74f25f343e6a31da98d6",
+    "url": "/portfolio/static/media/ukg.6252839c.jpg"
   },
   {
     "revision": "96d7d96cc2603328fa5d8af823743954",

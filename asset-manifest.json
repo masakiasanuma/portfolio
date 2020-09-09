@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c93c2180.chunk.css",
-    "main.js": "/portfolio/static/js/main.70425266.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.70425266.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bedf9578.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bedf9578.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
     "static/css/2.69121389.chunk.css": "/portfolio/static/css/2.69121389.chunk.css",
     "static/js/2.e5f86f66.chunk.js": "/portfolio/static/js/2.e5f86f66.chunk.js",
     "static/js/2.e5f86f66.chunk.js.map": "/portfolio/static/js/2.e5f86f66.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1c46d1ab6d110df5f0ca688d4468cd3c.js": "/portfolio/precache-manifest.1c46d1ab6d110df5f0ca688d4468cd3c.js",
+    "precache-manifest.59938a5c7dabf1f74f4e93427ea141bf.js": "/portfolio/precache-manifest.59938a5c7dabf1f74f4e93427ea141bf.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/portfolio/static/css/2.69121389.chunk.css.map",
     "static/css/main.c93c2180.chunk.css.map": "/portfolio/static/css/main.c93c2180.chunk.css.map",
@@ -30,7 +30,7 @@
     "static/media/spartans.jpg": "/portfolio/static/media/spartans.b8a8fdf5.jpg",
     "static/media/tetris.jpg": "/portfolio/static/media/tetris.59bec0c5.jpg",
     "static/media/torrance.png": "/portfolio/static/media/torrance.352846eb.png",
-    "static/media/ultimate_software.jpg": "/portfolio/static/media/ultimate_software.29e75e05.jpg",
+    "static/media/ukg.jpg": "/portfolio/static/media/ukg.6252839c.jpg",
     "static/media/zappay.png": "/portfolio/static/media/zappay.96d7d96c.png"
   },
   "entrypoints": [
@@ -38,6 +38,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.e5f86f66.chunk.js",
     "static/css/main.c93c2180.chunk.css",
-    "static/js/main.70425266.chunk.js"
+    "static/js/main.bedf9578.chunk.js"
   ]
 }
