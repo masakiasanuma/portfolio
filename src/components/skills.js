@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap' 
+import { Container, Row, Col, Image } from 'react-bootstrap' 
 
 const Skills = () => {
     return (
@@ -10,6 +10,7 @@ const Skills = () => {
                     <Col xs={12} sm={8} md={9}>
                         <i title="Java" className="skillIcon devicon-java-plain colored" />
                         <i title="Javascript" className="skillIcon devicon-javascript-plain colored" />
+                        <i title="Docker" className="skillIcon devicon-docker-plain colored" />
                         <i title="HTML5" className="skillIcon devicon-html5-plain colored" />
                         <i title="CSS3" className="skillIcon devicon-css3-plain colored" />
                         <i title="React.js" className="skillIcon devicon-react-original colored" />
@@ -19,7 +20,9 @@ const Skills = () => {
                         <i title="MySQL" className="skillIcon devicon-mysql-plain colored" />
                         <i title="Git" className="skillIcon devicon-git-plain colored" />
                         <i title="Ubuntu" className="skillIcon devicon-ubuntu-plain colored" />
-                        <i title="Windows" className="skillIcon devicon-windows8-original colored" />
+                        <Image title="PowerShell" className="skillIcon imageIcon" src={require("../images/powershell.jpg")} />
+                        <Image title="Microsoft SQL Server" className="skillIcon imageIcon" src={require("../images/mssql.png")} />
+                        <Image title="SQL Change Automation" className="skillIcon imageIcon" src={require("../images/SCA.png")} />
                     </Col>
                 </Row>
             </div>
@@ -31,7 +34,6 @@ const Skills = () => {
                         <i title="Python" className="skillIcon devicon-python-plain colored" />
                         <i title="Bootstrap" className="skillIcon devicon-bootstrap-plain colored" />
                         <i title="jQuery" className="skillIcon devicon-jquery-plain colored" />
-                        <i title="MacOS" className="skillIcon devicon-apple-original colored" />
                     </Col>
                 </Row>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, Button } from 'react-bootstrap' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { StickyContainer, Sticky } from 'react-sticky'
 
@@ -17,7 +17,6 @@ const Side = () => {
                             <hr className="bar" />
                             <div className="center">
                                 <h5><FontAwesomeIcon icon={faEnvelope} /> - masakiasanuma@outlook.com</h5>
-                                <h5><FontAwesomeIcon icon={faPhone} /> - (310) 710-0790</h5>
                                 <Button className="button" href="https://www.linkedin.com/in/masakiasanuma/" target="_blank" rel="noopener noreferrer" size="lg"><FontAwesomeIcon icon={faLinkedin} /></Button>
                                 <Button className="button" href="https://github.com/Masasasaki" target="_blank" rel="noopener noreferrer" size="lg"><FontAwesomeIcon icon={faGithub} /></Button>
                             </div>

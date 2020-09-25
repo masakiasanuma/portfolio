@@ -142,3 +142,7 @@ hr.separator {
 .hobbyImages {
     padding: 10px;
 }
+
+.imageIcon {
+    vertical-align: top;
+}

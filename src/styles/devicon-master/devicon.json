@@ -8,6 +8,14 @@
     }
   },
   {
+    "name": "powershell",
+    "tags": ["cloud", "hosting", "server"],
+    "versions": {
+      "svg": ["original"],
+      "font": ["original"]
+    }
+  },
+  {
     "name": "android",
     "tags": ["os", "mobile"],
     "versions": {
