@@ -8,7 +8,7 @@ import { StickyContainer, Sticky } from 'react-sticky'
 const Side = () => {
     return (
         <div>
-            <Image className="profile" src={require("../images/profile.jpg")} fluid />
+            <Image className="profile" src={require("../images/profilepic.jpg")} fluid thumbnail />
             <StickyContainer>
                 <Sticky>
                     {({style}) => (

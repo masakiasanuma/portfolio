@@ -19,7 +19,7 @@ const AboutMe = () => {
                 <hr className="my-2" />
                 <p>
                     I am a third-year Computer Science undergraduate student at 
-                    Georgia Tech interested in full-stack web development. 
+                    Georgia Tech interested in full-stack web development and CI/CD pipelines. 
                     I am a fingerstyle guitarist, a coffee enthusiast, and a lover of
                     anything cyberpunk related!
                 </p>

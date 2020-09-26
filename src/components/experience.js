@@ -32,7 +32,7 @@ const Experience = () => {
                 </Row>
                 <Row className="desc">
                     <p>
-                        Current intern.
+                        Current intern in the Data Warehouse team.
                     </p>
                 </Row>
             </div>
