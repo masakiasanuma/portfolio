@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b2257b2e.chunk.css",
-    "main.js": "/portfolio/static/js/main.2f214f6d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2f214f6d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9d54d140.chunk.css",
+    "main.js": "/portfolio/static/js/main.baca534e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.baca534e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
     "static/css/2.69121389.chunk.css": "/portfolio/static/css/2.69121389.chunk.css",
     "static/js/2.f66eb405.chunk.js": "/portfolio/static/js/2.f66eb405.chunk.js",
     "static/js/2.f66eb405.chunk.js.map": "/portfolio/static/js/2.f66eb405.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4c36a4ceecc5b6a9a7980632b26f388e.js": "/portfolio/precache-manifest.4c36a4ceecc5b6a9a7980632b26f388e.js",
+    "precache-manifest.aa9bb135928579374fa9845498081b65.js": "/portfolio/precache-manifest.aa9bb135928579374fa9845498081b65.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/portfolio/static/css/2.69121389.chunk.css.map",
-    "static/css/main.b2257b2e.chunk.css.map": "/portfolio/static/css/main.b2257b2e.chunk.css.map",
+    "static/css/main.9d54d140.chunk.css.map": "/portfolio/static/css/main.9d54d140.chunk.css.map",
     "static/js/2.f66eb405.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f66eb405.chunk.js.LICENSE.txt",
     "static/media/CoC.jpeg": "/portfolio/static/media/CoC.d4beeb7d.jpeg",
     "static/media/KPMG.jpg": "/portfolio/static/media/KPMG.214a6549.jpg",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.f18b6ef5.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.f66eb405.chunk.js",
-    "static/css/main.b2257b2e.chunk.css",
-    "static/js/main.2f214f6d.chunk.js"
+    "static/css/main.9d54d140.chunk.css",
+    "static/js/main.baca534e.chunk.js"
   ]
 }
