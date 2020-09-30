@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 const Skills = () => {
     return (
         <Container>
-            <div className="entry">
+            <div className="skillentry">
                 <Row>
                     <Col xs={12} sm={4} md={3}><h4 className="skillLevel">Proficient: </h4></Col>
                     <Col xs={12} sm={8} md={9}>
@@ -26,7 +26,7 @@ const Skills = () => {
                     </Col>
                 </Row>
             </div>
-            <div className="entry">
+            <div className="skillentry">
                 <Row>
                     <Col xs={12} sm={4} md={3}><h4 className="skillLevel">Familiar: </h4></Col>
                     <Col xs={12} sm={8} md={9}>

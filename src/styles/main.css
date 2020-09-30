@@ -16,18 +16,23 @@ body {
 }
 
 .logo {
-    width: 100px;
-    border-radius: 50%;
-    float: right;
+    width: 125px;
+    border-radius: 0px 0px 25px 0px;
 }
 
 .entry {
-    padding-top: 30px;
+    margin: 25px;
+    padding: 0px;
+    box-shadow: 0 5px 10px rgba(46, 179, 240, 0.7);
+}
+
+.skillentry {
+    margin: 25px;
+    padding: 0px;
 }
 
 .adjust {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 ul {
@@ -39,8 +44,7 @@ li {
 }
 
 .desc {
-    padding-top: 30px;
-    padding-left: 20px;
+    padding: 30px;
     font-size: 18px;
 }
 
@@ -136,7 +140,8 @@ hr.separator {
 
 .section {
     margin-top: 10px;
-    padding: 20px;
+    padding: 50px;
+    box-shadow: 0 20px 50px rgba(46, 179, 240, 0.7);
 }
 
 .hobbyImages {

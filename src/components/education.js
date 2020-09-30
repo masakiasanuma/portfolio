@@ -4,7 +4,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap'
 const Education = () => {
     return (
         <Container>
-            <div>
+            <div className="entry">
                 <Row>
                     <Col xs={5} sm={4} md={2}>
                         <Image className="logo" src={require("../images/gtlogo.png")} fluid />
