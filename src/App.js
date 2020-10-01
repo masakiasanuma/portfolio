@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 import { Container, Row, Col } from 'react-bootstrap' 
 import Side from './components/side'
 import AboutMe from './components/aboutme'
@@ -14,6 +16,16 @@ const App = () => {
         fontFamily: 'Jost'
     }
 
+    useEffect(() => {
+        AOS.init({
+            easing: 'ease-out-quad',
+            duration: 1000,
+            delay: 150,
+            once: true
+        });
+        AOS.refresh();
+    }, []);
+
     return (
         <div>
             <Container style={containerStyle} fluid>
@@ -23,30 +35,30 @@ const App = () => {
                     </Col>
                     <Col className="main" md={12} lg={8}>
                         <Container fluid>
-                            <Row>
+                            <Row data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
                                 <AboutMe />
                             </Row>
-                            <Row className="section">
+                            <Row className="section" data-aos="fade-right" data-aos-offset="200" data-aos-anchor-placement="top-center">
                                 <h1 className="header sectionTitle">Experience <span role="img" aria-label="work">👔</span></h1>
                                 <hr className="separator" />
                                 <Experience />
                             </Row>
-                            <Row className="section">
+                            <Row className="section" data-aos="fade-right" data-aos-anchor-placement="top-center">
                                 <h1 className="header">Projects <span role="img" aria-label="computer">💻</span></h1>
                                 <hr className="separator" />
                                 <Projects />
                             </Row>
-                            <Row className="section">
+                            <Row className="section" data-aos="fade-right" data-aos-anchor-placement="top-center">
                                 <h1 className="header sectionTitle">Education <span role="img" aria-label="school">🏫</span></h1>
                                 <hr className="separator" />
                                 <Education />
                             </Row>
-                            <Row className="section">
+                            <Row className="section" data-aos="fade-right" data-aos-offset="700" data-aos-anchor-placement="center-center">
                                 <h1 className="header">Skills <span role="img" aria-label="tools">🧰</span></h1>
                                 <hr className="separator" />
                                 <Skills />
                             </Row>
-                            <Row className="section">
+                            <Row className="section" data-aos="fade-right" data-aos-offset="900" data-aos-anchor-placement="center-bottom">
                                 <h1 className="header">Hobbies <span role="img" aria-label="guitar">🎸</span><span role="img" aria-label="coffee">☕</span></h1>
                                 <hr className="separator" />
                                 <Hobbies />

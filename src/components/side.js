@@ -17,8 +17,8 @@ const Side = () => {
                             <hr className="bar" />
                             <div className="center">
                                 <h5><FontAwesomeIcon icon={faEnvelope} /> - masakiasanuma@outlook.com</h5>
-                                <Button className="button" href="https://www.linkedin.com/in/masakiasanuma/" target="_blank" rel="noopener noreferrer" size="lg"><FontAwesomeIcon icon={faLinkedin} /></Button>
-                                <Button className="button" href="https://github.com/Masasasaki" target="_blank" rel="noopener noreferrer" size="lg"><FontAwesomeIcon icon={faGithub} /></Button>
+                                <Button variant="primary" className="button" href="https://www.linkedin.com/in/masakiasanuma/" target="_blank" rel="noopener noreferrer" size="lg"><FontAwesomeIcon icon={faLinkedin} /></Button>
+                                <Button variant="dark" className="button" href="https://github.com/Masasasaki" target="_blank" rel="noopener noreferrer" size="lg"><FontAwesomeIcon icon={faGithub} /></Button>
                             </div>
                         </div>
                     )}
