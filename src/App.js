@@ -53,12 +53,12 @@ const App = () => {
                                 <hr className="separator" />
                                 <Education />
                             </Row>
-                            <Row className="section" data-aos="fade-right" data-aos-offset="700" data-aos-anchor-placement="center-center">
+                            <Row className="section" data-aos="fade-right" data-aos-offset="0" data-aos-anchor-placement="top-bottom">
                                 <h1 className="header">Skills <span role="img" aria-label="tools">🧰</span></h1>
                                 <hr className="separator" />
                                 <Skills />
                             </Row>
-                            <Row className="section" data-aos="fade-right" data-aos-offset="900" data-aos-anchor-placement="center-bottom">
+                            <Row className="section" data-aos="fade-right" data-aos-offset="200" data-aos-anchor-placement="top-bottom">
                                 <h1 className="header">Hobbies <span role="img" aria-label="guitar">🎸</span><span role="img" aria-label="coffee">☕</span></h1>
                                 <hr className="separator" />
                                 <Hobbies />
