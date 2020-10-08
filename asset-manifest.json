@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3902e295.chunk.css",
-    "main.js": "/portfolio/static/js/main.42885f6f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.42885f6f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4d944ddf.chunk.css",
+    "main.js": "/portfolio/static/js/main.79564336.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.79564336.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
     "static/css/2.7101a1b0.chunk.css": "/portfolio/static/css/2.7101a1b0.chunk.css",
     "static/js/2.35331561.chunk.js": "/portfolio/static/js/2.35331561.chunk.js",
     "static/js/2.35331561.chunk.js.map": "/portfolio/static/js/2.35331561.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.97f4c56397a3f32f50556cb64c534a04.js": "/portfolio/precache-manifest.97f4c56397a3f32f50556cb64c534a04.js",
+    "precache-manifest.c14552f625d292b2761d8af80060e96d.js": "/portfolio/precache-manifest.c14552f625d292b2761d8af80060e96d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7101a1b0.chunk.css.map": "/portfolio/static/css/2.7101a1b0.chunk.css.map",
-    "static/css/main.3902e295.chunk.css.map": "/portfolio/static/css/main.3902e295.chunk.css.map",
+    "static/css/main.4d944ddf.chunk.css.map": "/portfolio/static/css/main.4d944ddf.chunk.css.map",
     "static/js/2.35331561.chunk.js.LICENSE.txt": "/portfolio/static/js/2.35331561.chunk.js.LICENSE.txt",
     "static/media/CoC.jpeg": "/portfolio/static/media/CoC.d4beeb7d.jpeg",
     "static/media/KPMG.jpg": "/portfolio/static/media/KPMG.214a6549.jpg",
@@ -35,14 +35,13 @@
     "static/media/tc.svg": "/portfolio/static/media/tc.c13f299a.svg",
     "static/media/tetris.jpg": "/portfolio/static/media/tetris.59bec0c5.jpg",
     "static/media/torrance.png": "/portfolio/static/media/torrance.352846eb.png",
-    "static/media/ukg.jpg": "/portfolio/static/media/ukg.6252839c.jpg",
     "static/media/zappay.png": "/portfolio/static/media/zappay.96d7d96c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f18b6ef5.js",
     "static/css/2.7101a1b0.chunk.css",
     "static/js/2.35331561.chunk.js",
-    "static/css/main.3902e295.chunk.css",
-    "static/js/main.42885f6f.chunk.js"
+    "static/css/main.4d944ddf.chunk.css",
+    "static/js/main.79564336.chunk.js"
   ]
 }
