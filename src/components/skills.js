@@ -12,10 +12,11 @@ const Skills = () => {
                         <i title="Javascript" className="skillIcon devicon-javascript-plain colored" />
                         <i title="HTML5" className="skillIcon devicon-html5-plain colored" />
                         <i title="CSS3" className="skillIcon devicon-css3-plain colored" />
-                        <i title="Docker" className="skillIcon devicon-docker-plain colored" />
                         <i title="Git" className="skillIcon devicon-git-plain colored" />
-                        <Image title="PowerShell Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/powershell.svg")} />
                         <i title="Ubuntu" className="skillIcon devicon-ubuntu-plain colored" />
+                        <i title="Docker" className="skillIcon devicon-docker-plain colored" />
+                        <Image title="TeamCity" className="skillIcon imageIcon" width="60" height="41" src={require("../images/tc.svg")} />
+                        <Image title="PowerShell Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/powershell.svg")} />
                         <Image title="SQL Change Automation" className="skillIcon imageIcon" width="60" height="41" src={require("../images/SCA.svg")} />
                     </Col>
                 </Row>
@@ -29,13 +30,12 @@ const Skills = () => {
                         <i title="Express.js" className="skillIcon devicon-express-original colored" />
                         <i title="MongoDB" className="skillIcon devicon-mongodb-plain colored" />
                         <i title="MySQL" className="skillIcon devicon-mysql-plain colored" />
-                        <Image title="Microsoft SQL Server" className="skillIcon imageIcon" width="60" height="41" src={require("../images/mssql.svg")} />
                         <i title="C" className="skillIcon devicon-c-plain colored" />
                         <i title="Python" className="skillIcon devicon-python-plain colored" />
                         <i title="Bootstrap" className="skillIcon devicon-bootstrap-plain colored" />
                         <i title="jQuery" className="skillIcon devicon-jquery-plain colored" />
+                        <Image title="Microsoft SQL Server" className="skillIcon imageIcon" width="60" height="41" src={require("../images/mssql.svg")} />
                         <Image title="Kubernetes" className="skillIcon imageIcon" width="60" height="41" src={require("../images/k8.svg")} />
-                        <Image title="TeamCity" className="skillIcon imageIcon" width="60" height="41" src={require("../images/tc.svg")} />
                     </Col>
                 </Row>
             </div>

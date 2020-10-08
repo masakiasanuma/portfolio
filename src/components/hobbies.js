@@ -13,7 +13,7 @@ const Hobbies = () => {
             </Row>
             <Row>
                 <Col className="hobbyImages" sm={12} md={8}>
-                    <ReactPlayer url="https://www.youtube.com/watch?v=5eE59gnLlWc" width='100%' />
+                    <ReactPlayer url="https://www.youtube.com/watch?v=MAdCWiFtsgI" width='100%' />
                 </Col>
                 <Col className="hobbyImages" sm={12} md={4}>
                     <Image src={require("../images/latte.jpg")} fluid />

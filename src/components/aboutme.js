@@ -16,7 +16,7 @@ const AboutMe = () => {
     return (
         <div>
             <Jumbotron style={jumboStyle}>
-                <h1 className="headerJumbo neon"><span>W</span>e<span>l</span>co<span>m</span>e!<span>!</span><span role="img" aria-label="wave">👋</span></h1>
+                <h1 className="headerJumbo neon"><span className="flicker-fast">W</span>e<span className="flicker-slow">lc</span>o<span className="flicker-fast">m</span>e<span className="flicker-slow">!!</span><span role="img" aria-label="wave">👋</span></h1>
                 <hr className="my-2" />
                 <p className="neon">
                     I am a third-year Computer Science undergraduate student at 

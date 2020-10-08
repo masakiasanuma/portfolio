@@ -27,7 +27,7 @@ const Experience = () => {
             <div className="entry">
                 <Row>
                     <Col xs={5} sm={4} md={2}>
-                        <Image className="logo" src={require("../images/ukg.jpg")} fluid />
+                        <Image className="logo" src={require("../images/ukkkggg.jpg")} fluid />
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>Software Engineering Intern <span className="date">Sep 2020 - Dec 2020</span></h3>
