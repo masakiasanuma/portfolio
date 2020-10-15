@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4d944ddf.chunk.css",
-    "main.js": "/portfolio/static/js/main.79564336.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.79564336.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d6423f05.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d6423f05.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
     "static/css/2.7101a1b0.chunk.css": "/portfolio/static/css/2.7101a1b0.chunk.css",
-    "static/js/2.35331561.chunk.js": "/portfolio/static/js/2.35331561.chunk.js",
-    "static/js/2.35331561.chunk.js.map": "/portfolio/static/js/2.35331561.chunk.js.map",
+    "static/js/2.99ce6c6b.chunk.js": "/portfolio/static/js/2.99ce6c6b.chunk.js",
+    "static/js/2.99ce6c6b.chunk.js.map": "/portfolio/static/js/2.99ce6c6b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c14552f625d292b2761d8af80060e96d.js": "/portfolio/precache-manifest.c14552f625d292b2761d8af80060e96d.js",
+    "precache-manifest.7399e35738b18596f440fc4a7ec6341e.js": "/portfolio/precache-manifest.7399e35738b18596f440fc4a7ec6341e.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7101a1b0.chunk.css.map": "/portfolio/static/css/2.7101a1b0.chunk.css.map",
     "static/css/main.4d944ddf.chunk.css.map": "/portfolio/static/css/main.4d944ddf.chunk.css.map",
-    "static/js/2.35331561.chunk.js.LICENSE.txt": "/portfolio/static/js/2.35331561.chunk.js.LICENSE.txt",
+    "static/js/2.99ce6c6b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.99ce6c6b.chunk.js.LICENSE.txt",
     "static/media/CoC.jpeg": "/portfolio/static/media/CoC.d4beeb7d.jpeg",
     "static/media/KPMG.jpg": "/portfolio/static/media/KPMG.214a6549.jpg",
     "static/media/MTS.png": "/portfolio/static/media/MTS.10d4351c.png",
     "static/media/SCA.svg": "/portfolio/static/media/SCA.62163b66.svg",
+    "static/media/bashh.svg": "/portfolio/static/media/bashh.94d112c7.svg",
     "static/media/boeing.jpg": "/portfolio/static/media/boeing.c7682b70.jpg",
     "static/media/devicon.min.css": "/portfolio/static/media/devicon.74e6e6c3.svg",
     "static/media/gtlogo.png": "/portfolio/static/media/gtlogo.ada45412.png",
@@ -40,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.f18b6ef5.js",
     "static/css/2.7101a1b0.chunk.css",
-    "static/js/2.35331561.chunk.js",
+    "static/js/2.99ce6c6b.chunk.js",
     "static/css/main.4d944ddf.chunk.css",
-    "static/js/main.79564336.chunk.js"
+    "static/js/main.d6423f05.chunk.js"
   ]
 }
