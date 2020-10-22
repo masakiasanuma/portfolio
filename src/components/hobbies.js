@@ -8,7 +8,7 @@ const Hobbies = () => {
             <Row className="hobbyDesc">
                 <p>
                     In my free time, you can find me playing the guitar, practicing latte art, or browsing reddit and youtube.
-                    I also post fingerstyle guitar videos on <a href="https://www.youtube.com/channel/UCth0pz1bQjWFVoX422pMypQ" target="_blank" rel="noopener noreferrer">Youtube</a> and <a href="https://www.instagram.com/masachanmusic/" target="_blank" rel="noopener noreferrer">Instagram</a>!
+                    I also post fingerstyle guitar videos on <a href="https://www.youtube.com/channel/UCth0pz1bQjWFVoX422pMypQ" target="_blank" rel="noopener noreferrer">Youtube</a> and <a href="https://www.instagram.com/yuru_guitar/" target="_blank" rel="noopener noreferrer">Instagram</a>!
                 </p>
             </Row>
             <Row>
