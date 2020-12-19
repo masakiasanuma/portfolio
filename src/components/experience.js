@@ -31,12 +31,63 @@ const Experience = () => {
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>Software Engineering Intern <span className="date">Sep 2020 - Dec 2020</span></h3>
-                        <h4><span className="light"><a href="https://www.ukg.com/" target="_blank" rel="noopener noreferrer">UKG (Ultimate Kronos Group)</a></span> <span className="date">Weston, FL</span></h4>
+                        <h4><span className="light"><a href="https://www.ukg.com/" target="_blank" rel="noopener noreferrer">UKG (Ultimate Kronos Group)</a></span> <span className="date">Virtual / Remote</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">
                     <p>
-                        Current intern in the Data Warehouse team.
+                        <b>In a nutshell / TL;DR</b>
+                        <br /><br />
+                        I saved multiple hours (+5 hrs to ~1 hr) of engineering time 
+                        and reduced the complexity of setting up environments 
+                        by automating & containerizing Data Warehousing services
+                        and enhancing the CI/CD infrastructure.
+                        <br /><br />
+                    </p>
+                    <p>
+                        <b>Containerizing Microsoft SQL databases</b>
+                        <br /><br />
+                        I improved the portability & accessibility of company databases 
+                        by creating an automated dockerization process for Microsoft SQL databases.
+                        <br /><br />
+                        Before: Developers had to spend about an hour to set up SQL servers 
+                        and manually deploy the databases using pipelines.
+                        <br /><br />
+                        After: Developers can easily spin up & tear down the docker image of the databases in a couple of minutes 
+                        by running a single docker command on any platform (Windows, Mac, Linux). 
+                        The database will always be up to date since I created a pipeline that automatically 
+                        builds an image of the databases whenever there is a change in the dev or master branch of the SQL projects.
+                        <br /><br />
+                    </p>
+                    <p>
+                        <b>Automating build & deployment of SQL projects</b>
+                        <br /><br />
+                        I enhanced the code quality of databases by generating drift & code analysis reports
+                        and developing re-runnable automated build, promote, & deploy pipelines
+                        using Redgate's SQL Change Automation and custom PowerShell cmdlets. 
+                        <br /><br />
+                        Before: Database developers & administrators did not have any analytical reports to use for reference 
+                        or a smooth automated process for building, promoting, & deploying the SQL Change Automation project.
+                        <br /><br />
+                        After: Drift & code analysis reports are generated whenever a deployment is made that pinpoints exactly 
+                        what changes were made to the database and suggests best coding conventions based on the deployment. The entire 
+                        build, promote, & deploy process is automated for a smooth user experience, reducing unnecessary complexity and 
+                        frusturation for the developers.
+                        <br /><br />
+                    </p>
+                    <p>
+                        <b>Automated creation of a sandbox environment</b>
+                        <br /><br />
+                        I boosted the efficiency of acceptance testing & analysis by implementing
+                        an automated weekly creation of a fully configured sandbox environment containing 
+                        2 SQL databases, MongoDB cluster, RabbitMQ, 4 .NET applications on Kubernetes, and 3 virtual machines on the cloud.
+                        <br /><br />
+                        Before: Engineers, product managers, and business analysts had to spend hours juggling through 
+                        each of the components and ensure that the environment was all reset and ready to use.
+                        <br /><br />
+                        After: Every Monday, a freshly built environment is ready to use with all the latest changes, 
+                        saving time and reducing complexity for everyone.
+                        <br /><br />
                     </p>
                 </Row>
             </div>

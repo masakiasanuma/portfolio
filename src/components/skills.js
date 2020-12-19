@@ -16,6 +16,7 @@ const Skills = () => {
                         <i title="Ubuntu" className="skillIcon devicon-ubuntu-plain colored" />
                         <i title="Docker" className="skillIcon devicon-docker-plain colored" />
                         <Image title="TeamCity" className="skillIcon imageIcon" width="60" height="41" src={require("../images/tc.svg")} />
+                        <Image title="RabbitMQ" className="skillIcon imageIcon" width="60" height="41" src={require("../images/rabbitmq.svg")} />
                         <Image title="PowerShell Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/powershell.svg")} />
                         <Image title="Bash Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/bashh.svg")} />
                         <Image title="SQL Change Automation" className="skillIcon imageIcon" width="60" height="41" src={require("../images/SCA.svg")} />
