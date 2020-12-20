@@ -94,6 +94,17 @@ li {
     margin: 40px auto 0 auto;
 }
 
+.inanutshell {
+    box-shadow: 0 5px 10px rgba(46, 179, 240, 0.7);
+    padding: 20px;
+    background: rgb(1, 81, 82);
+    color: white;
+}
+
+.innersection {
+    padding: 20px;
+}
+
 hr.bar {
     border-top: 1px solid white;
     width: 80%;

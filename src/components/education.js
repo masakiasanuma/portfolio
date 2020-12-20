@@ -41,7 +41,7 @@ const Education = () => {
                 <Row className="desc">
                     <ul>
                         <li>
-                            <b>Activities:</b> President at <a href="http://www.team1197.com/TorbotsWeb.html" target="_blank" rel="noopener noreferrer">FRC Team 1197</a>, Drum Captain at <a href="http://southhighband.org/wp/" target="_blank" rel="noopener noreferrer">Spartans Marching Band</a>
+                            <b>Activities:</b> President at <a href="https://torbots.wixsite.com/mysite" target="_blank" rel="noopener noreferrer">FRC Team 1197</a>, Drum Captain at <a href="http://southhighband.org/wp/" target="_blank" rel="noopener noreferrer">Spartans Marching Band</a>
                         </li>
                     </ul>
                 </Row>

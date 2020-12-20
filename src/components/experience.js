@@ -35,16 +35,29 @@ const Experience = () => {
                     </Col>
                 </Row>
                 <Row className="desc">
-                    <p>
+                    <p className="inanutshell">
                         <b>In a nutshell / TL;DR</b>
                         <br /><br />
-                        I saved multiple hours (+5 hrs to ~1 hr) of engineering time 
+                        I saved multiple hours (from +5 hrs to ~1 hr) of engineering time 
                         and reduced the complexity of setting up environments 
                         by automating & containerizing Data Warehousing services
-                        and enhancing the CI/CD infrastructure.
+                        and enhancing the CI/CD infrastructure using these technologies:
                         <br /><br />
+                        <i title="Docker" className="skillIcon devicon-docker-plain colored" />
+                        <Image title="TeamCity" className="skillIcon imageIcon" width="60" height="41" src={require("../images/tc.svg")} />
+                        <Image title="PowerShell Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/powershell.svg")} />
+                        <Image title="Bash Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/bash.svg")} />
+                        <Image title="Redgate Deploy" className="skillIcon imageIcon" width="60" height="41" src={require("../images/SCA.svg")} />
+                        <Image title="RabbitMQ" className="skillIcon imageIcon" width="60" height="41" src={require("../images/rabbitmq.svg")} />
+                        <i title="MongoDB" className="skillIcon devicon-mongodb-plain colored" />
+                        <Image title="Microsoft SQL Server" className="skillIcon imageIcon" width="60" height="41" src={require("../images/mssql.svg")} />
+                        <Image title="Kubernetes" className="skillIcon imageIcon" width="60" height="41" src={require("../images/k8.svg")} />
+                        <Image title="Vault Hashicorp" className="skillIcon imageIcon" width="60" height="41" src={require("../images/vault.svg")} />
+                        <Image title="JFrog Artifactory" className="skillIcon imageIcon" width="60" height="41" src={require("../images/jfrog.svg")} />
+                        <br /><br />
+                        Continue reading for specific highlights & before/afters! <span role="img" aria-label="down">👇</span>
                     </p>
-                    <p>
+                    <p className="innersection">
                         <b>Containerizing Microsoft SQL databases</b>
                         <br /><br />
                         I improved the portability & accessibility of company databases 
@@ -53,41 +66,38 @@ const Experience = () => {
                         Before: Developers had to spend about an hour to set up SQL servers 
                         and manually deploy the databases using pipelines.
                         <br /><br />
-                        After: Developers can easily spin up & tear down the docker image of the databases in a couple of minutes 
+                        After: Developers can easily spin up and tear down the docker image of the SQL databases in a couple of minutes   
                         by running a single docker command on any platform (Windows, Mac, Linux). 
                         The database will always be up to date since I created a pipeline that automatically 
                         builds an image of the databases whenever there is a change in the dev or master branch of the SQL projects.
-                        <br /><br />
                     </p>
-                    <p>
+                    <p className="innersection">
                         <b>Automating build & deployment of SQL projects</b>
                         <br /><br />
                         I enhanced the code quality of databases by generating drift & code analysis reports
                         and developing re-runnable automated build, promote, & deploy pipelines
-                        using Redgate's SQL Change Automation and custom PowerShell cmdlets. 
+                        using <a href="https://www.red-gate.com/products/redgate-deploy/" target="_blank" rel="noopener noreferrer">Redgate Deploy</a> and custom PowerShell cmdlets. 
                         <br /><br />
                         Before: Database developers & administrators did not have any analytical reports to use for reference 
-                        or a smooth automated process for building, promoting, & deploying the SQL Change Automation project.
+                        or a smooth automated process for building, promoting, & deploying the SQL project.
                         <br /><br />
                         After: Drift & code analysis reports are generated whenever a deployment is made that pinpoints exactly 
                         what changes were made to the database and suggests best coding conventions based on the deployment. The entire 
                         build, promote, & deploy process is automated for a smooth user experience, reducing unnecessary complexity and 
                         frusturation for the developers.
-                        <br /><br />
                     </p>
-                    <p>
+                    <p className="innersection">
                         <b>Automated creation of a sandbox environment</b>
                         <br /><br />
                         I boosted the efficiency of acceptance testing & analysis by implementing
                         an automated weekly creation of a fully configured sandbox environment containing 
-                        2 SQL databases, MongoDB cluster, RabbitMQ, 4 .NET applications on Kubernetes, and 3 virtual machines on the cloud.
+                        2 Microsoft SQL databases, a MongoDB cluster, a RabbitMQ instance, 4 .NET applications on Kubernetes, and 3 virtual machines on the cloud.
                         <br /><br />
                         Before: Engineers, product managers, and business analysts had to spend hours juggling through 
                         each of the components and ensure that the environment was all reset and ready to use.
                         <br /><br />
                         After: Every Monday, a freshly built environment is ready to use with all the latest changes, 
                         saving time and reducing complexity for everyone.
-                        <br /><br />
                     </p>
                 </Row>
             </div>
@@ -102,7 +112,7 @@ const Experience = () => {
                     </Col>
                 </Row>
                 <Row className="desc">
-                    <p>
+                    <p className="innersection">
                         I assisted in resolving over 200 tickets of hardware/software issues for the students, faculty, and staff of the College of Computing.
                         I worked closely with other assistants and IT Support Professionals to document the troubleshooting process of common issues.
                     </p>
@@ -119,7 +129,7 @@ const Experience = () => {
                     </Col>
                 </Row>
                 <Row className="desc">
-                    <p>
+                    <p className="innersection">
                         I created and organized the first computer science course offered at Jubilate Academy aimed for middle and high school students.
                         The course was separated into two levels: one taught in Scratch for complete beginners and one taught in Java for those with
                         a bit of experience.
@@ -137,7 +147,7 @@ const Experience = () => {
                     </Col>
                 </Row>
                 <Row className="desc">
-                    <p>
+                    <p className="innersection">
                         I conducted 1-on-1 tutoring with high school students to prepare them for the <a href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/course?course=ap-computer-science-a" target="_blank" rel="noopener noreferrer">AP Computer Science A </a> 
                         course/test. I created over 100 customized coding problems on <a href="https://repl.it/" target="_blank" rel="noopener noreferrer">Repl.it</a> for students to gain hands-on experience 
                         and instant feedback on their solutions.
@@ -155,7 +165,7 @@ const Experience = () => {
                     </Col>
                 </Row>
                 <Row className="desc">
-                    <p>
+                    <p className="innersection">
                         I worked in the Electronics Products department with two other interns. Under the guidance of a mentor, we designed and 
                         developed a Python application that allows employees to easily navigate through the EPAR (Electronic Product Assurance Record) database. 
                         As I was not familiar with the language, I learned the basics of Python, Tkinter, and SQL in 2 weeks to swiftly implement and deploy the product.

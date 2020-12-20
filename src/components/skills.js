@@ -18,8 +18,8 @@ const Skills = () => {
                         <Image title="TeamCity" className="skillIcon imageIcon" width="60" height="41" src={require("../images/tc.svg")} />
                         <Image title="RabbitMQ" className="skillIcon imageIcon" width="60" height="41" src={require("../images/rabbitmq.svg")} />
                         <Image title="PowerShell Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/powershell.svg")} />
-                        <Image title="Bash Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/bashh.svg")} />
-                        <Image title="SQL Change Automation" className="skillIcon imageIcon" width="60" height="41" src={require("../images/SCA.svg")} />
+                        <Image title="Bash Scripting" className="skillIcon imageIcon" width="60" height="41" src={require("../images/bash.svg")} />
+                        <Image title="Redgate Deploy" className="skillIcon imageIcon" width="60" height="41" src={require("../images/SCA.svg")} />
                     </Col>
                 </Row>
             </div>
@@ -38,6 +38,8 @@ const Skills = () => {
                         <i title="jQuery" className="skillIcon devicon-jquery-plain colored" />
                         <Image title="Microsoft SQL Server" className="skillIcon imageIcon" width="60" height="41" src={require("../images/mssql.svg")} />
                         <Image title="Kubernetes" className="skillIcon imageIcon" width="60" height="41" src={require("../images/k8.svg")} />
+                        <Image title="Vault Hashicorp" className="skillIcon imageIcon" width="60" height="41" src={require("../images/vault.svg")} />
+                        <Image title="JFrog Artifactory" className="skillIcon imageIcon" width="60" height="41" src={require("../images/jfrog.svg")} />
                     </Col>
                 </Row>
             </div>
