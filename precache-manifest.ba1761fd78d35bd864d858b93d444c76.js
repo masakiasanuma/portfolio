@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa0e23aa5ed27706a8d5e8c9cf94ff38",
+    "revision": "b94c48856a30863f9f5dd0b33d90dcae",
     "url": "/index.html"
   },
   {
-    "revision": "54df58fb96c4718ea5ab",
+    "revision": "9501c5219f018f7b6c97",
     "url": "/static/css/2.7101a1b0.chunk.css"
   },
   {
-    "revision": "bc17513447e0d5fb95d9",
-    "url": "/static/css/main.3822b13a.chunk.css"
+    "revision": "f2c12872e84c3f5303bb",
+    "url": "/static/css/main.5519c2ba.chunk.css"
   },
   {
-    "revision": "54df58fb96c4718ea5ab",
-    "url": "/static/js/2.d001b3f7.chunk.js"
+    "revision": "9501c5219f018f7b6c97",
+    "url": "/static/js/2.c3e9f640.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.d001b3f7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c3e9f640.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc17513447e0d5fb95d9",
-    "url": "/static/js/main.82bf0731.chunk.js"
+    "revision": "f2c12872e84c3f5303bb",
+    "url": "/static/js/main.1a434b8b.chunk.js"
   },
   {
     "revision": "b775e3132e0930477ff9",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MTS.10d4351c.png"
   },
   {
-    "revision": "62163b66494b4dca5b417ea61995e85d",
-    "url": "/static/media/SCA.62163b66.svg"
+    "revision": "08e18a2c4749f09276221994ab215e3a",
+    "url": "/static/media/SCA.08e18a2c.svg"
   },
   {
-    "revision": "94d112c73101f5ce72017e8bfc4f0398",
-    "url": "/static/media/bashh.94d112c7.svg"
+    "revision": "258e24a1f1707ef716ecadfb9abbdde8",
+    "url": "/static/media/bash.258e24a1.svg"
   },
   {
     "revision": "c7682b70e79f97caaa6420bcc1352373",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ada45412e428b12ef6c031e9b15eb0b6",
     "url": "/static/media/gtlogo.ada45412.png"
+  },
+  {
+    "revision": "591e8a0822e998cdcc6be79a5d0626a9",
+    "url": "/static/media/jfrog.591e8a08.svg"
   },
   {
     "revision": "724043a4d1074956432bb2d7906b7a08",
@@ -130,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "352846ebe4fe37deaa0b805e5998f955",
     "url": "/static/media/torrance.352846eb.png"
+  },
+  {
+    "revision": "e8f29c46d1c01ace0668d916c6074cfb",
+    "url": "/static/media/vault.e8f29c46.svg"
   },
   {
     "revision": "96d7d96cc2603328fa5d8af823743954",
