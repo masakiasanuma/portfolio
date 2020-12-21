@@ -14,7 +14,7 @@ const Experience = () => {
                         <Image className="logo" src={require("../images/KPMG.jpg")} fluid />
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10} fluid>
-                        <h3>Software Engineering Intern <span className="date">Jan 2021 - Jul 2021</span></h3>
+                        <h3>Software Engineer Intern <span className="date">Jan 2021 - Jul 2021</span></h3>
                         <h4><span className="light"><a href="https://home.kpmg/jp/en/home/about/kit.html" target="_blank" rel="noopener noreferrer">KPMG Ignition Tokyo</a></span> <span className="date">Tokyo, Japan</span></h4>
                     </Col>
                 </Row>
@@ -30,7 +30,7 @@ const Experience = () => {
                         <Image className="logo" src={require("../images/ukkkggg.jpg")} fluid />
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
-                        <h3>Software Engineering Intern <span className="date">Sep 2020 - Dec 2020</span></h3>
+                        <h3>Software Engineer Intern <span className="date">Sep 2020 - Dec 2020</span></h3>
                         <h4><span className="light"><a href="https://www.ukg.com/" target="_blank" rel="noopener noreferrer">UKG (Ultimate Kronos Group)</a></span> <span className="date">Virtual / Remote</span></h4>
                     </Col>
                 </Row>
@@ -160,7 +160,7 @@ const Experience = () => {
                         <Image className="logo" src={require("../images/boeing.jpg")} fluid />
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
-                        <h3>Software Engineering Intern <span className="date">Jun 2017 - Aug 2017</span></h3>
+                        <h3>Software Engineer Intern <span className="date">Jun 2017 - Aug 2017</span></h3>
                         <h4><span className="light"><a href="https://www.boeing.com/space/boeing-satellite-family/" target="_blank" rel="noopener noreferrer">The Boeing Company</a></span> <span className="date">El Segundo, CA</span></h4>
                     </Col>
                 </Row>
