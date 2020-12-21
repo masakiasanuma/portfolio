@@ -40,7 +40,7 @@ const Experience = () => {
                         <br /><br />
                         I saved multiple hours (from +5 hrs to ~1 hr) of engineering time 
                         and reduced the complexity of setting up environments 
-                        by automating & containerizing Data Warehousing services
+                        by automating and containerizing Data Warehousing services
                         and enhancing the CI/CD infrastructure using these technologies:
                         <br /><br />
                         <i title="Docker" className="skillIcon devicon-docker-plain colored" />
@@ -55,12 +55,12 @@ const Experience = () => {
                         <Image title="Vault Hashicorp" className="skillIcon imageIcon" width="60" height="41" src={require("../images/vault.svg")} />
                         <Image title="JFrog Artifactory" className="skillIcon imageIcon" width="60" height="41" src={require("../images/jfrog.svg")} />
                         <br /><br />
-                        Continue reading for specific highlights & before/afters! <span role="img" aria-label="down">👇</span>
+                        Continue reading for specific highlights and before/afters! <span role="img" aria-label="down">👇</span>
                     </p>
                     <p className="innersection">
                         <b>Containerizing Microsoft SQL databases</b>
                         <br /><br />
-                        I improved the portability & accessibility of company databases 
+                        I improved the portability and accessibility of company databases 
                         by creating an automated dockerization process for Microsoft SQL databases.
                         <br /><br />
                         Before: Developers had to spend about an hour to set up SQL servers 
@@ -72,24 +72,24 @@ const Experience = () => {
                         builds an image of the databases whenever there is a change in the dev or master branch of the SQL projects.
                     </p>
                     <p className="innersection">
-                        <b>Automating build & deployment of SQL projects</b>
+                        <b>Better development experience for SQL databases</b>
                         <br /><br />
-                        I enhanced the code quality of databases by generating drift & code analysis reports
-                        and developing re-runnable automated build, promote, & deploy pipelines
+                        I enhanced the code quality of databases by generating static analysis reports
+                        and developing re-runnable automated build, promote, and deploy pipelines
                         using <a href="https://www.red-gate.com/products/redgate-deploy/" target="_blank" rel="noopener noreferrer">Redgate Deploy</a> and custom PowerShell cmdlets. 
                         <br /><br />
-                        Before: Database developers & administrators did not have any analytical reports to use for reference 
-                        or a smooth automated process for building, promoting, & deploying the SQL project.
+                        Before: Database developers and administrators did not have any analytical reports to use for reference 
+                        or a smooth automated process for building, promoting, and deploying the SQL project.
                         <br /><br />
-                        After: Drift & code analysis reports are generated whenever a deployment is made that pinpoints exactly 
+                        After: Static analysis reports are generated whenever a deployment is made that pinpoints exactly 
                         what changes were made to the database and suggests best coding conventions based on the deployment. The entire 
-                        build, promote, & deploy process is automated for a smooth user experience, reducing unnecessary complexity and 
+                        build, promote, and deploy process is automated for a smooth user experience, reducing unnecessary complexity and 
                         frusturation for the developers.
                     </p>
                     <p className="innersection">
                         <b>Automated creation of a sandbox environment</b>
                         <br /><br />
-                        I boosted the efficiency of acceptance testing & analysis by implementing
+                        I boosted the efficiency of acceptance testing and analysis by implementing
                         an automated weekly creation of a fully configured sandbox environment containing 
                         2 Microsoft SQL databases, a MongoDB cluster, a RabbitMQ instance, 4 .NET applications on Kubernetes, and 3 virtual machines on the cloud.
                         <br /><br />
