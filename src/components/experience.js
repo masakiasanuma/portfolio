@@ -20,7 +20,7 @@ const Experience = () => {
                 </Row>
                 <Row className="desc">
                     <p>
-                        Incoming intern.
+                        Current intern.
                     </p>
                 </Row>
             </div>
@@ -31,7 +31,7 @@ const Experience = () => {
                     </Col>
                     <Col className="adjust" xs={7} sm={8} md={10}>
                         <h3>Software Engineer Intern <span className="date">Sep 2020 - Dec 2020</span></h3>
-                        <h4><span className="light"><a href="https://www.ukg.com/" target="_blank" rel="noopener noreferrer">UKG (Ultimate Kronos Group)</a></span> <span className="date">Virtual / Remote</span></h4>
+                        <h4><span className="light"><a href="https://www.ukg.com/" target="_blank" rel="noopener noreferrer">UKG (Ultimate Kronos Group)</a></span> <span className="date">Remote, Virtual</span></h4>
                     </Col>
                 </Row>
                 <Row className="desc">
