@@ -45,9 +45,11 @@ const App = () => {
     useEffect(onToggle, [sectionFlag]);
 
     // Adjust default scroll point based on window size
-    const scroll = useBreakpointValue({ base: 800, lg: 0});
+    const scroll = useBreakpointValue({ base: -1, lg: 0});
     useEffect(() => {
-        window.scrollTo(0, scroll!);
+        if (scroll! !== -1) {
+            window.scrollTo(0, scroll!);
+        }
         // eslint-disable-next-line
     }, [sectionFlag]);
 
@@ -58,7 +60,7 @@ const App = () => {
         if (sectionFlag !== section) {
             onToggle();
         }
-    }
+    };
 
     return (
         <Box display={{ lg: 'flex' }}>
@@ -119,37 +121,37 @@ const App = () => {
                 <Content marginLeft={{ md: '0px', lg: '100px' }}>
                     {
                         sectionFlag === 'about' && 
-                        <FadeWrap offsetY='30px' offsetX='30px' in={isOpen}>
+                        <FadeWrap in={isOpen}>
                             <AboutMe />
                         </FadeWrap>
                     }
                     {
                         sectionFlag === 'experience' && 
-                        <FadeWrap offsetY='30px' offsetX='30px' in={isOpen}>
+                        <FadeWrap in={isOpen}>
                             <Experience />
                         </FadeWrap>
                     }
                     {
                         sectionFlag === 'education' && 
-                        <FadeWrap offsetY='30px' offsetX='30px' in={isOpen}>
+                        <FadeWrap in={isOpen}>
                             <Education />
                         </FadeWrap>
                     }
                     {
                         sectionFlag === 'projects' && 
-                        <FadeWrap offsetY='30px' offsetX='30px' in={isOpen}>
+                        <FadeWrap in={isOpen}>
                             <Projects />
                         </FadeWrap>
                     }
                     {
                         sectionFlag === 'skills' && 
-                        <FadeWrap offsetY='30px' offsetX='30px' in={isOpen}>
+                        <FadeWrap in={isOpen}>
                             <Skills />
                         </FadeWrap>
                     }
                     {
                         sectionFlag === 'music' && 
-                        <FadeWrap offsetY='30px' offsetX='30px' in={isOpen}>
+                        <FadeWrap in={isOpen}>
                             <Music />
                         </FadeWrap>
                     }
