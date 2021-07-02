@@ -48,7 +48,7 @@ const Projects = () => {
         <Wrap>
             <Heading size='3xl'>Projects</Heading>
             <ProjectsWrap>
-                <ProjectEntry maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={portfolio} alt={'Portfolio'} />
                     <Content>
                         <Title fontSize='2xl'>
@@ -80,7 +80,7 @@ const Projects = () => {
                         </TechUsed>
                     </Footer>
                 </ProjectEntry>
-                <ProjectEntry maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={mts} alt={'MTS'} />
                     <Content>
                         <Title fontSize='2xl'>
@@ -100,7 +100,7 @@ const Projects = () => {
                                     Class Project
                                 </ActionButton>
                             </PopoverTrigger>
-                            <PopoverContent color="white" bg="black" borderColor="black">
+                            <PopoverContent color='white' bg='black' borderColor='black'>
                                 <PopoverHeader fontWeight='bolder' fontSize='xl'>
                                     Unfotunately...
                                 </PopoverHeader>
@@ -116,7 +116,7 @@ const Projects = () => {
                         </TechUsed>
                     </Footer>
                 </ProjectEntry>
-                <ProjectEntry maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={mangadex} alt={'Mangadex'} />
                     <Content>
                         <Title fontSize='2xl'>
@@ -150,7 +150,7 @@ const Projects = () => {
                         </TechUsed>
                     </Footer>
                 </ProjectEntry>
-                <ProjectEntry maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={zappay} alt={'Zap Pay'} />
                     <Content>
                         <Title fontSize='2xl'>
@@ -181,7 +181,7 @@ const Projects = () => {
                         </TechUsed>
                     </Footer>
                 </ProjectEntry>
-                <ProjectEntry maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={rgb} alt={'RGB Color Guess'} />
                     <Content>
                         <Title fontSize='2xl'>
@@ -227,10 +227,7 @@ const Wrap = styled.div`
 `;
 
 const ProjectPic = styled(Image)`
-    min-width: 350px;
-    minh-height: 250px;
-    max-width: auto;
-    max-height: auto;
+
 `;
 
 const ProjectsWrap = styled(Box)`

@@ -25,7 +25,7 @@ const SideBar = (props: { backgroundColor: any; }) => {
                     src={profile}
                     alt='Masaki Asanuma'
                     borderRadius='full'
-                    width={{ base: '300px' }}
+                    width={{ base: '275px' }}
                 />
             </Box>
             <Text fontSize={{ base: '5xl' }}>Masaki <Bold>Asanuma</Bold></Text>
