@@ -17,6 +17,7 @@ import aboutme1 from '../../images/aboutme1.jpeg';
 import aboutme2 from '../../images/aboutme2.jpg';
 import aboutme3 from '../../images/aboutme3.jpeg';
 import aboutme4 from '../../images/aboutme4.jpeg';
+import aboutme5 from '../../images/aboutme5.jpeg';
 
 const AboutMe = () => {
     return (
@@ -39,10 +40,11 @@ const AboutMe = () => {
                         variant='enclosed'
                     >
                         <TabList>
-                            <Tab>Ito, Shizuoka</Tab>
-                            <Tab>Harvesting Takenoko</Tab>
-                            <Tab>Snowing</Tab>
+                            <Tab>Shizuoka</Tab>
+                            <Tab>Takenoko</Tab>
+                            <Tab>Snow</Tab>
                             <Tab>GT Drumline</Tab>
+                            <Tab>Guitar</Tab>
                         </TabList>
                         <TabPanels>
                             <TabPanel>
@@ -56,6 +58,9 @@ const AboutMe = () => {
                             </TabPanel>
                             <TabPanel>
                                 <AboutPic src={aboutme4} alt='About me picture' />
+                            </TabPanel>
+                            <TabPanel>
+                                <AboutPic src={aboutme5} alt='About me picture' />
                             </TabPanel>
                         </TabPanels>
                     </Tabs>
