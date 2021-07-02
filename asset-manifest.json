@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/static/js/main.dda20ba9.chunk.js",
+    "main.js.map": "/static/js/main.dda20ba9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
+    "static/css/2.64fbee90.chunk.css": "/static/css/2.64fbee90.chunk.css",
+    "static/js/2.a46cd844.chunk.js": "/static/js/2.a46cd844.chunk.js",
+    "static/js/2.a46cd844.chunk.js.map": "/static/js/2.a46cd844.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.64fbee90.chunk.css.map": "/static/css/2.64fbee90.chunk.css.map",
+    "static/js/2.a46cd844.chunk.js.LICENSE.txt": "/static/js/2.a46cd844.chunk.js.LICENSE.txt",
+    "static/media/KPMG.ae17d14a.jpg": "/static/media/KPMG.ae17d14a.jpg",
+    "static/media/MTS.5f7b182e.png": "/static/media/MTS.5f7b182e.png",
+    "static/media/aboutme1.a4f40b92.jpeg": "/static/media/aboutme1.a4f40b92.jpeg",
+    "static/media/aboutme2.e53909a2.jpg": "/static/media/aboutme2.e53909a2.jpg",
+    "static/media/aboutme3.71d30a25.jpeg": "/static/media/aboutme3.71d30a25.jpeg",
+    "static/media/aboutme4.bce92703.jpeg": "/static/media/aboutme4.bce92703.jpeg",
+    "static/media/gtlogo.7c3c5097.png": "/static/media/gtlogo.7c3c5097.png",
+    "static/media/guitar1.5ac1aa8e.jpeg": "/static/media/guitar1.5ac1aa8e.jpeg",
+    "static/media/300.css": "/static/media/source-sans-pro-vietnamese-300-normal.2a39e4fa.woff2",
+    "static/media/mangadexterity.08ff6aa7.png": "/static/media/mangadexterity.08ff6aa7.png",
+    "static/media/portfolio.a49ab8b6.png": "/static/media/portfolio.a49ab8b6.png",
+    "static/media/resume.129e5187.pdf": "/static/media/resume.129e5187.pdf",
+    "static/media/rgb.f63660d2.png": "/static/media/rgb.f63660d2.png",
+    "static/media/spartans.0901ff88.jpg": "/static/media/spartans.0901ff88.jpg",
+    "static/media/zappay.0f1a6eb7.png": "/static/media/zappay.0f1a6eb7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b83279d6.js",
+    "static/css/2.64fbee90.chunk.css",
+    "static/js/2.a46cd844.chunk.js",
+    "static/js/main.dda20ba9.chunk.js"
+  ]
+}
