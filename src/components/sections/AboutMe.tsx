@@ -18,6 +18,7 @@ import aboutme2 from '../../images/aboutme2.jpg';
 import aboutme3 from '../../images/aboutme3.jpeg';
 import aboutme4 from '../../images/aboutme4.jpeg';
 import aboutme5 from '../../images/aboutme5.jpeg';
+import aboutme6 from '../../images/aboutme6.jpeg';
 
 const AboutMe = () => {
     return (
@@ -45,22 +46,26 @@ const AboutMe = () => {
                             <Tab>Snow</Tab>
                             <Tab>GT Drumline</Tab>
                             <Tab>Guitar</Tab>
+                            <Tab>Kimono</Tab>
                         </TabList>
                         <TabPanels>
                             <TabPanel>
-                                <AboutPic src={aboutme1} alt='About me picture' />
+                                <AboutPic src={aboutme1} alt='Ito, Shizuoka' />
                             </TabPanel>
                             <TabPanel>
-                                <AboutPic src={aboutme2} alt='About me picture' />
+                                <AboutPic src={aboutme2} alt='Harvesting Takenoko' />
                             </TabPanel>
                             <TabPanel>
-                                <AboutPic src={aboutme3} alt='About me picture' />
+                                <AboutPic src={aboutme3} alt='Snowing in Tokyo' />
                             </TabPanel>
                             <TabPanel>
-                                <AboutPic src={aboutme4} alt='About me picture' />
+                                <AboutPic src={aboutme4} alt='GT drumline freshman year' />
                             </TabPanel>
                             <TabPanel>
-                                <AboutPic src={aboutme5} alt='About me picture' />
+                                <AboutPic src={aboutme5} alt='Guitar recording' />
+                            </TabPanel>
+                            <TabPanel>
+                                <AboutPic src={aboutme6} alt='Me in a kimono at a temple' />
                             </TabPanel>
                         </TabPanels>
                     </Tabs>
