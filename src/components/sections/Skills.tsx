@@ -54,7 +54,12 @@ import {
 
 import {
     RiSafe2Fill,
+    RiTestTubeFill,
 } from 'react-icons/ri';
+
+import {
+    GiPanda,
+} from 'react-icons/gi';
 
 // Component featuring all the tech I used throughout my career
 const Skills = () => {
@@ -120,8 +125,16 @@ const Skills = () => {
                         <Text>styled-components</Text>
                     </IconWrap>
                     <IconWrap>
+                        <RiTestTubeFill size={iconSize} />
+                        <Text>Cypress</Text>
+                    </IconWrap>
+                    <IconWrap>
                         <SiDjango size={iconSize} />
                         <Text>Django</Text>
+                    </IconWrap>
+                    <IconWrap>
+                        <GiPanda size={iconSize} />
+                        <Text>Pandas</Text>
                     </IconWrap>
                     <IconWrap>
                         <SiJetbrains size={iconSize} />

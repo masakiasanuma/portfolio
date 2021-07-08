@@ -44,8 +44,13 @@ import {
 } from 'react-icons/di';
 
 import {
-    RiSafe2Fill
+    RiSafe2Fill,
+    RiTestTubeFill,
 } from 'react-icons/ri';
+
+import {
+    GiPanda,
+} from 'react-icons/gi';
 
 import kpmg from '../../images/KPMG.jpg';
 import ukg from '../../images/ukg.jpg';
@@ -104,10 +109,11 @@ const Experience = () => {
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
                                     <ListItemPoint fontSize='lg'>Developed both the frontend (React Hooks, TypeScript) and backend (Python Django, PostgresSQL) of the first phase of a document search service web application utilized by KPMG Japan auditors.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Implemented a content management portal where content managers can add, edit, delete, and track the visibility of audit documents that the end-users can search through the engine.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Designed PostgresSQL tables for the different types of audit documents available within the engine.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Utilized MobX 6 for global state management and styled-components for adding CSS styling.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Implemented a content management portal where users can add, edit, delete, and track the visibility of audit documents that the end-users can search through the engine.</ListItemPoint>
                                     <ListItemPoint fontSize='lg'>Participated in agile workflow meetings including sprint planning, retrospective, and estimation planning.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Designed PostgresSQL tables for the different types of audit documents available for search.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Conducted integration tests for the frontend using Cypress.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Utilized MobX 6 for frontend global state management and styled-components for adding CSS styling.</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -122,8 +128,8 @@ const Experience = () => {
                             </h2>
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
-                                    <ListItemPoint fontSize='lg'>Developed the core logic & backend of a python package that automates vouching tasks performed by auditors of KPMG Japan.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Implemented validation, prediction, and mapping functionality for excel inputs.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Developed the core logic & backend of a python package that automates vouching tasks performed by KPMG Japan auditors.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Implemented validation, prediction, and mapping functionality for excel inputs using pandas.</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -142,12 +148,20 @@ const Experience = () => {
                             <Text paddingLeft='5px'>TypeScript</Text>
                         </IconWrap>
                         <IconWrap bg='#1245a8' boxShadow='base'>
+                            <RiTestTubeFill size={iconSize} />
+                            <Text paddingLeft='5px'>Cypress</Text>
+                        </IconWrap>
+                        <IconWrap bg='#1245a8' boxShadow='base'>
                             <FaPython size={iconSize} />
                             <Text paddingLeft='5px'>Python</Text>
                         </IconWrap>
                         <IconWrap bg='#1245a8' boxShadow='base'>
                             <SiDjango size={iconSize} />
                             <Text paddingLeft='5px'>Django</Text>
+                        </IconWrap>
+                        <IconWrap bg='#1245a8' boxShadow='base'>
+                            <GiPanda size={iconSize} />
+                            <Text paddingLeft='5px'>Pandas</Text>
                         </IconWrap>
                         <IconWrap bg='#1245a8' boxShadow='base'>
                             <SiPostgresql size={iconSize} />
