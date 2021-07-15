@@ -109,7 +109,7 @@ const Experience = () => {
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
                                     <ListItemPoint fontSize='lg'>Developed both the frontend (React Hooks, TypeScript) and backend (Python Django, PostgresSQL) of the first phase of a document search service web application utilized by KPMG Japan auditors.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Implemented a content management portal where users can add, edit, delete, and track the visibility of audit documents that the end-users can search through the engine.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>Implemented a content management portal where admin users can add, edit, delete, and track the visibility of audit documents that the end-users can search through the engine.</ListItemPoint>
                                     <ListItemPoint fontSize='lg'>Participated in agile workflow meetings including sprint planning, retrospective, and estimation planning.</ListItemPoint>
                                     <ListItemPoint fontSize='lg'>Designed PostgresSQL tables for the different types of audit documents available for search.</ListItemPoint>
                                     <ListItemPoint fontSize='lg'>Conducted integration tests for the frontend using Cypress.</ListItemPoint>
