@@ -52,6 +52,7 @@ import {
     GiPanda,
 } from 'react-icons/gi';
 
+import amazon from '../../images/amazon.jpeg';
 import kpmg from '../../images/KPMG.jpg';
 import ukg from '../../images/ukg.jpg';
 
@@ -61,6 +62,43 @@ const Experience = () => {
     return (
         <Wrap>
             <Heading size='3xl'>Experience</Heading>
+            <ExperienceEntry boxShadow='base'>
+                <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>
+                    <Image src={amazon} alt='amazon' boxSize='100px' borderRadius='md' />
+                    <HeaderInfo>
+                        <HeaderWrap
+                            flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
+                            alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
+                        >
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>Software Development Engineer Intern</InfoText></Bold>
+                            <DateBadge>
+                                <Badge borderRadius='full' px='2' colorScheme='teal'>
+                                    May 2022 - Jul 2022
+                                </Badge>
+                            </DateBadge>
+                        </HeaderWrap>
+                        <HeaderWrap
+                            flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
+                            alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
+                        >
+                            <InfoText fontSize={{ base: '2xl' }}>Amazon</InfoText>
+                            <Box
+                                color='gray.500'
+                                fontWeight='semibold'
+                                letterSpacing='wide'
+                                fontSize='xs'
+                                textTransform='uppercase'
+                                ml='2'
+                            >
+                                Greater Seattle Area
+                            </Box>
+                        </HeaderWrap>
+                    </HeaderInfo>
+                </EntryHeader>
+                <EntryBody>
+                    <InfoText fontSize={{ base: 'xl' }}>Incoming SDE Intern for summer 2022</InfoText>
+                </EntryBody>
+            </ExperienceEntry>
             <ExperienceEntry boxShadow='base'>
                 <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>
                     <Image src={kpmg} alt='kpmg' boxSize='100px' borderRadius='md' />

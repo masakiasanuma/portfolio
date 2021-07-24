@@ -30,9 +30,6 @@ const SideBar = (props: { backgroundColor: any; }) => {
             </Box>
             <Text fontSize={{ base: '40px' }}>Masaki <Bold>Asanuma</Bold></Text>
             <Divider />
-            <Status boxShadow='base'>
-                <Text fontSize={{ base: 'lg' }} fontWeight='bolder'>Seeking summer 2022 SWE internship</Text>
-            </Status>
             <Text fontSize={{ base: 'lg' }}><EmailIcon /> - masakiasanuma@outlook.com</Text>
             <HStack paddingTop='10px'>
                 <Button
@@ -76,14 +73,6 @@ const SideBarWrap = styled(Center)<{ backgroundColor: any }>`
     padding: 0px 40px 0px 40px;
     -webkit-transition: background 1s;
     transition: background 1s;
-`;
-
-const Status = styled(Box)`
-    margin: 10px 5px 5px 5px;
-    padding: 5px;
-    color: black;
-    background: white;
-    border-radius: 15px;
 `;
 
 const Bold = styled.span`

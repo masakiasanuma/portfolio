@@ -71,7 +71,7 @@ const App = () => {
                 position={{ md: 'sticky', lg: 'fixed' }}
                 top={{ md: '0' }}
                 zIndex={{ base: 3 }}
-                left={{ md: '0px', lg: '373px' }}
+                left={{ md: '0px', lg: '350px' }}
                 height={{ md: '100%', lg: '100vh' }}
                 flexDirection={{ lg: 'column' }}
             >
