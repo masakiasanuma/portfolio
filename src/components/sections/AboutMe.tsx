@@ -26,7 +26,7 @@ const AboutMe = () => {
             <Heading size='3xl'>Welcome!</Heading>
             <AboutWrap flexDirection={{ base: 'column' }}>
                 <Content fontSize='2xl'>
-                    My name is Masaki Asanuma, I am a third-year Computer Science undergraduate student 
+                    My name is Masaki Asanuma, I am a 4th-year Computer Science undergraduate student 
                     at Georgia Tech interested in exploring the different components that goes into designing, developing, and 
                     deploying a software application in various contexts. Outside of CS, I love to play guitar/drums and drink 
                     a delicious cup of Ethiopian coffee brewed using my Aeropress ☕
