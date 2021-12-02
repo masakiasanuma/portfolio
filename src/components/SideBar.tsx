@@ -47,7 +47,7 @@ const SideBar = (props: { backgroundColor: any; }) => {
                     background='#333'
                     _hover={{ bg: '#222' }}
                     onClick={() => {
-                        const win = window.open('https://github.com/Masasasaki', '_blank')!;
+                        const win = window.open('https://github.com/masakiasanuma', '_blank')!;
                         win.focus();
                     }}
                 >
