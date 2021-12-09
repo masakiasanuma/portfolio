@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 import {
@@ -16,8 +15,11 @@ import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa';
 import profile from '../images/guitar1.jpeg';
 import resume from '../resume.pdf';
 
+import { LangState } from '../lang';
+import { observer } from 'mobx-react';
+
 // Sidebar component displaying contact info, name, and profile picture
-const SideBar = (props: { backgroundColor: any; }) => {
+const SideBar = observer((props: { backgroundColor: any; }) => {
     return (
         <SideBarWrap position={{ lg: 'fixed', md: 'relative' }} backgroundColor={props.backgroundColor}>
             <Box flexShrink={0}>
@@ -28,9 +30,9 @@ const SideBar = (props: { backgroundColor: any; }) => {
                     width={{ base: '275px' }}
                 />
             </Box>
-            <Text fontSize={{ base: '40px' }}>Masaki <Bold>Asanuma</Bold></Text>
+            <Text fontSize={{ base: '40px' }}>{LangState.getLang().firstName} <Bold>{LangState.getLang().lastName}</Bold></Text>
             <Divider />
-            <Status fontSize={{ base: 'lg' }}>Seeking entry positions for early 2023</Status>
+            <Status fontSize={{ base: 'lg' }}>{LangState.getLang().status}</Status>
             <Text fontSize={{ base: 'lg' }}><EmailIcon /> - masakiasanuma@outlook.com</Text>
             <HStack paddingTop='10px'>
                 <Button
@@ -61,10 +63,19 @@ const SideBar = (props: { backgroundColor: any; }) => {
                         <FaDownload size={20} />
                     </a>
                 </Button>
+                <Button
+                    background='#'
+                    _hover={{ bg: '#222' }}
+                    onClick={() => {
+                        LangState.getCurrLang() === 'en' ? LangState.setLang('jp') : LangState.setLang('en');
+                    }}
+                >
+                    {LangState.getCurrLang() === 'jp' ? 'English' : '日本語'}
+                </Button>
             </HStack>
         </SideBarWrap>
     )
-};
+});
 
 const SideBarWrap = styled(Center)<{ backgroundColor: any }>`
     flex-direction: column;
