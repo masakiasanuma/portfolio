@@ -25,7 +25,7 @@ import {
     SiGnubash,
     SiPowershell,
     SiC,
-    SiStyledComponents,
+    SiStyledcomponents,
     SiDjango,
     SiJetbrains,
     SiMongodb,
@@ -38,6 +38,7 @@ import {
     SiAzureartifacts,
     SiMicrosoftsqlserver,
     SiTypescript,
+    SiThreedotjs,
 } from 'react-icons/si';
 
 import {
@@ -61,16 +62,19 @@ import {
     GiPanda,
 } from 'react-icons/gi';
 
+import { LangState } from '../../lang';
+import { observer } from 'mobx-react';
+
 // Component featuring all the tech I used throughout my career
-const Skills = () => {
+const Skills = observer(() => {
     const iconSize = 50;
     return (
         <Wrap>
-            <Heading size='3xl'>Skills</Heading>
-            <Text fontSize={{ base: '2xl' }} paddingTop={{ base: '20px' }}>Here are the programming languages, technologies, tools, & operating systems that I have used throughout my career. Some skills I am more comfortable/proficient than others, but I have been exposed to all the listed tech and I am confident that I can quickly refresh my knowledge about it. Always expanding & willing to learn new cool stuff to use in projects!</Text>
+            <Heading size='3xl'>{LangState.getLang().skills}</Heading>
+            <Text fontSize={{ base: '2xl' }} paddingTop={{ base: '20px' }}>{LangState.getLang().skillsDesc}</Text>
             <SkillEntry boxShadow='base'>
                 <EntryHeader>
-                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>Languages</Text>
+                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>{LangState.getLang().languages}</Text>
                 </EntryHeader>
                 <EntryBody>
                     <IconWrap>
@@ -109,7 +113,7 @@ const Skills = () => {
             </SkillEntry>
             <SkillEntry boxShadow='base'>
                 <EntryHeader>
-                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>Technologies</Text>
+                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>{LangState.getLang().technologies}</Text>
                 </EntryHeader>
                 <EntryBody>
                     <IconWrap>
@@ -121,8 +125,12 @@ const Skills = () => {
                         <Text>Docker</Text>
                     </IconWrap>
                     <IconWrap>
-                        <SiStyledComponents size={iconSize} />
+                        <SiStyledcomponents size={iconSize} />
                         <Text>styled-components</Text>
+                    </IconWrap>
+                    <IconWrap>
+                        <SiThreedotjs size={iconSize} />
+                        <Text>Three.js</Text>
                     </IconWrap>
                     <IconWrap>
                         <RiTestTubeFill size={iconSize} />
@@ -172,7 +180,7 @@ const Skills = () => {
             </SkillEntry>
             <SkillEntry boxShadow='base'>
                 <EntryHeader>
-                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>Tools</Text>
+                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>{LangState.getLang().tools}</Text>
                 </EntryHeader>
                 <EntryBody>
                     <IconWrap>
@@ -211,7 +219,7 @@ const Skills = () => {
             </SkillEntry>
             <SkillEntry boxShadow='base'>
                 <EntryHeader>
-                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>Operating Systems</Text>
+                    <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>{LangState.getLang().os}</Text>
                 </EntryHeader>
                 <EntryBody>
                     <IconWrap>
@@ -230,7 +238,7 @@ const Skills = () => {
             </SkillEntry>
         </Wrap>
     );
-};
+});
 
 const Wrap = styled.div`
     display: flex;

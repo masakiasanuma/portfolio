@@ -26,7 +26,7 @@ import {
 import {
     SiGnubash,
     SiPowershell,
-    SiStyledComponents,
+    SiStyledcomponents,
     SiDjango,
     SiJetbrains,
     SiMongodb,
@@ -56,12 +56,15 @@ import amazon from '../../images/amazon.jpeg';
 import kpmg from '../../images/KPMG.jpg';
 import ukg from '../../images/ukg.jpg';
 
+import { LangState } from '../../lang';
+import { observer } from 'mobx-react';
+
 // Component featuring my relevant experiences for software development
-const Experience = () => {
+const Experience = observer(() => {
     const iconSize = 30;
     return (
         <Wrap>
-            <Heading size='3xl'>Experience</Heading>
+            <Heading size='3xl'>{LangState.getLang().experience}</Heading>
             <ExperienceEntry boxShadow='base'>
                 <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>
                     <Image src={amazon} alt='amazon' boxSize='100px' borderRadius='md' />
@@ -70,10 +73,10 @@ const Experience = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <Bold><InfoText fontSize={{ base: '3xl' }}>Software Development Engineer Intern</InfoText></Bold>
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().sde}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
-                                    May 2022 - Jul 2022
+                                    05/2022 - 07/2022
                                 </Badge>
                             </DateBadge>
                         </HeaderWrap>
@@ -81,7 +84,7 @@ const Experience = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>Amazon</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().amazon}</InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
@@ -90,13 +93,13 @@ const Experience = () => {
                                 textTransform='uppercase'
                                 ml='2'
                             >
-                                Greater Seattle Area
+                                {LangState.getLang().seattle}
                             </Box>
                         </HeaderWrap>
                     </HeaderInfo>
                 </EntryHeader>
                 <EntryBody>
-                    <InfoText fontSize={{ base: 'xl' }}>Incoming SDE Intern for summer 2022</InfoText>
+                    <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().amazonDesc}</InfoText>
                 </EntryBody>
             </ExperienceEntry>
             <ExperienceEntry boxShadow='base'>
@@ -107,10 +110,10 @@ const Experience = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <Bold><InfoText fontSize={{ base: '3xl' }}>Software Engineer Intern</InfoText></Bold>
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().se}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
-                                    Jan 2021 - Jul 2021
+                                    01/2021 - 07/2021
                                 </Badge>
                             </DateBadge>
                         </HeaderWrap>
@@ -118,7 +121,7 @@ const Experience = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>KPMG Ignition Tokyo</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().kit}</InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
@@ -127,31 +130,31 @@ const Experience = () => {
                                 textTransform='uppercase'
                                 ml='2'
                             >
-                                Tokyo, Japan
+                                {LangState.getLang().tokyo}
                             </Box>
                         </HeaderWrap>
                     </HeaderInfo>
                 </EntryHeader>
                 <EntryBody>
-                    <InfoText fontSize={{ base: 'xl' }}>Frontend, Backend, & Core logic dev for 2 applications/projects aimed to be utilized by KPMG Japan employees for automating/supporting their auditing, accounting, and risk management tasks.</InfoText>
+                    <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().kitDesc}</InfoText>
                     <AccordionWrap allowMultiple>
                         <AccordionItem>
                             <h2>
                             <AccordionButton _expanded={{ bg: '#1245a8', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                    Document Search Service (Mar - Jul)
+                                    {LangState.getLang().docuSearch}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
-                                    <ListItemPoint fontSize='lg'>Developed both the frontend (React Hooks, TypeScript) and backend (Python Django, PostgresSQL) of the first phase of a document search service web application utilized by KPMG Japan auditors.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Implemented a content management portal where admin users can add, edit, delete, and track the visibility of audit documents that the end-users can search through the engine.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Participated in agile workflow meetings including sprint planning, retrospective, and estimation planning.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Designed PostgresSQL tables for the different types of audit documents available for search.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Conducted integration tests for the frontend using Cypress.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Utilized MobX 6 for frontend global state management and styled-components for adding CSS styling.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().docuDesc1}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().docuDesc2}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().docuDesc3}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().docuDesc4}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().docuDesc5}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().docuDesc6}</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -159,15 +162,15 @@ const Experience = () => {
                             <h2>
                             <AccordionButton _expanded={{ bg: '#1245a8', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                    Audit Vouching Automation (Jan - Mar)
+                                    {LangState.getLang().vouch}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
-                                    <ListItemPoint fontSize='lg'>Developed the core logic & backend of a python package that automates vouching tasks performed by KPMG Japan auditors.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Implemented validation, prediction, and mapping functionality for excel inputs using pandas.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().vouchDesc1}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().vouchDesc2}</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -178,7 +181,7 @@ const Experience = () => {
                             <Text paddingLeft='5px'>(Hooks, Router, MobX)</Text>
                         </IconWrap>
                         <IconWrap bg='#1245a8' boxShadow='base'>
-                            <SiStyledComponents size={iconSize} />
+                            <SiStyledcomponents size={iconSize} />
                             <Text paddingLeft='5px'>styled-components</Text>
                         </IconWrap>
                         <IconWrap bg='#1245a8' boxShadow='base'>
@@ -224,10 +227,10 @@ const Experience = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <Bold><InfoText fontSize={{ base: '3xl' }}>Software Engineer Intern</InfoText></Bold>
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().se}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
-                                    Sep 2020 - Dec 2020
+                                    09/2020 - 12/2020
                                 </Badge>
                             </DateBadge>
                         </HeaderWrap>
@@ -235,7 +238,7 @@ const Experience = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>UKG (Ultimate Kronos Group)</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().ukg}</InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
@@ -244,29 +247,29 @@ const Experience = () => {
                                 textTransform='uppercase'
                                 ml='2'
                             >
-                                Remote, Virtual
+                                {LangState.getLang().remote}
                             </Box>
                         </HeaderWrap>
                     </HeaderInfo>
                 </EntryHeader>
                 <EntryBody>
-                    <InfoText fontSize={{ base: 'xl' }}>DevOps/SRE role within the Date Warehousing team, automating build & deployment of various applications/services using TeamCity pipelines and Bash & PowerShell scripts.</InfoText>
+                    <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().ukgDesc}</InfoText>
                     <AccordionWrap allowMultiple>
                         <AccordionItem>
                             <h2>
                             <AccordionButton _expanded={{ bg: '#045c5c', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                    More details
+                                    {LangState.getLang().details}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
-                                    <ListItemPoint fontSize='lg'>Developed and maintained CI/CD pipelines on TeamCity, reducing the deployment time of Data Warehousing services from +5 hours to ~1 hour and increasing the pipeline success rate by 30-40%.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Boosted the efficiency of acceptance testing & analysis by implementing an automated weekly creation of a fully configured sandbox environment containing Microsoft SQL databases, MongoDB, RabbitMQ, .NET applications on Kubernetes, and virtual machines.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Improved the portability & accessibility of company databases by creating an automated dockerization process for Microsoft SQL databases.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Enhanced the code quality of company databases by generating static analysis reports and developing re-runnable automated build, promote, and deploy pipelines using Redgate Deploy.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().detail1}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().detail2}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().detail3}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().detail4}</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -325,7 +328,7 @@ const Experience = () => {
             </ExperienceEntry>
         </Wrap>
     );
-};
+});
 
 const ExperienceEntry = styled(Box)`
     margin: 30px 0px 10px 0px;

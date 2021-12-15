@@ -21,6 +21,7 @@ import mangadex from '../../images/mangadexterity.png';
 import portfolio from '../../images/portfolio.png';
 import rgb from '../../images/rgb.png';
 import zappay from '../../images/zappay.png';
+import raytrace from '../../images/raytrace.png';
 
 import {
     FaReact,
@@ -38,24 +39,29 @@ import {
 
 import {
     SiJavascript,
-    SiStyledComponents,
+    SiStyledcomponents,
+    SiThreedotjs,
+    SiTypescript,
 } from 'react-icons/si';
 
+import { LangState } from '../../lang';
+import { observer } from 'mobx-react';
+
 // Component featuring projects I have worked on
-const Projects = () => {
+const Projects = observer(() => {
     const iconSize = 30;
     return (
         <Wrap>
-            <Heading size='3xl'>Projects</Heading>
+            <Heading size='3xl'>{LangState.getLang().projects}</Heading>
             <ProjectsWrap>
                 <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={portfolio} alt={'Portfolio'} />
                     <Content>
                         <Title fontSize='2xl'>
-                            Portfolio
+                            {LangState.getLang().portfolio}
                         </Title>
                         <Description fontSize='lg'>
-                            The website that you are on right now! After gaining React experience during my internship at KPMG, I decided to rebuild my portfolio site utilizing my frontend skills that I developed throughout the internship.
+                            {LangState.getLang().portDesc}
                         </Description>
                     </Content>
                     <Footer>
@@ -67,16 +73,50 @@ const Projects = () => {
                                 win.focus();
                             }}
                         >
-                            Github Repo
+                            {LangState.getLang().githubRepo}
                         </ActionButton>
                         <TechUsed fontSize='lg'>
                             <IconWrap>
                                 <FaReact size={iconSize} />
                             </IconWrap>
                             <IconWrap>
-                                <SiStyledComponents size={iconSize} />
+                                <SiTypescript size={iconSize} />
+                            </IconWrap>
+                            <IconWrap>
+                                <SiStyledcomponents size={iconSize} />
                             </IconWrap>
                             <Text paddingLeft='5px'>Chakra UI</Text>
+                        </TechUsed>
+                    </Footer>
+                </ProjectEntry>
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
+                    <ProjectPic src={raytrace} alt={'Ray Tracer'} />
+                    <Content>
+                        <Title fontSize='2xl'>
+                            {LangState.getLang().rayTracer}
+                        </Title>
+                        <Description fontSize='lg'>
+                            {LangState.getLang().rayDesc}
+                        </Description>
+                    </Content>
+                    <Footer>
+                        <ActionButton
+                            rightIcon={<FaGithub size={20} />}
+                            colorScheme='blackAlpha'
+                            onClick={() => {
+                                const win = window.open('https://github.com/Masasasaki/portfolio/tree/dev', '_blank')!;
+                                win.focus();
+                            }}
+                        >
+                            {LangState.getLang().githubRepo}
+                        </ActionButton>
+                        <TechUsed fontSize='lg'>
+                            <IconWrap>
+                                <SiTypescript size={iconSize} />
+                            </IconWrap>
+                            <IconWrap>
+                                <SiThreedotjs size={iconSize} />
+                            </IconWrap>
                         </TechUsed>
                     </Footer>
                 </ProjectEntry>
@@ -84,10 +124,10 @@ const Projects = () => {
                     <ProjectPic src={mts} alt={'MTS'} />
                     <Content>
                         <Title fontSize='2xl'>
-                            Mass Transit Simulation Application
+                            {LangState.getLang().mts}
                         </Title>
                         <Description fontSize='lg'>
-                            A discrete-event simulation that allows buses to travel along different routes while transporting riders to travel along different routes while transporting riders to different stops.
+                            {LangState.getLang().mtsDesc}
                         </Description>
                     </Content>
                     <Footer>
@@ -97,16 +137,16 @@ const Projects = () => {
                                     rightIcon={<FaBus size={20} />}
                                     colorScheme='blackAlpha'
                                 >
-                                    Class Project
+                                    {LangState.getLang().classProject}
                                 </ActionButton>
                             </PopoverTrigger>
                             <PopoverContent color='white' bg='black' borderColor='black'>
                                 <PopoverHeader fontWeight='bolder' fontSize='xl'>
-                                    Unfotunately...
+                                    {LangState.getLang().unfortunately}
                                 </PopoverHeader>
                                 <PopoverArrow />
                                 <PopoverCloseButton />
-                                <PopoverBody fontSize='lg'>This was for a class project so the code & app is within Georgia Tech's private Github repository.</PopoverBody>
+                                <PopoverBody fontSize='lg'>{LangState.getLang().unfortDesc}</PopoverBody>
                             </PopoverContent>
                         </Popover>
                         <TechUsed fontSize='lg'>
@@ -120,10 +160,10 @@ const Projects = () => {
                     <ProjectPic src={mangadex} alt={'Mangadex'} />
                     <Content>
                         <Title fontSize='2xl'>
-                            Mangadexterity
+                            {LangState.getLang().mangadex}
                         </Title>
                         <Description fontSize='lg'>
-                            A web-app that allows the users to read any manga (Japanese comics) series from an online manga reader called Mangadex. All the information and the pages of the manga series are retrieved from the Mangadex API.
+                            {LangState.getLang().mangaDesc}
                         </Description>
                     </Content>
                     <Footer>
@@ -135,7 +175,7 @@ const Projects = () => {
                                 win.focus();
                             }}
                         >
-                            Github Repo
+                            {LangState.getLang().githubRepo}
                         </ActionButton>
                         <TechUsed fontSize='lg'>
                             <IconWrap>
@@ -154,10 +194,10 @@ const Projects = () => {
                     <ProjectPic src={zappay} alt={'Zap Pay'} />
                     <Content>
                         <Title fontSize='2xl'>
-                            Zap Pay
+                            {LangState.getLang().zapPay}
                         </Title>
                         <Description fontSize='lg'>
-                        For HackGT 2019, my team created a mobile application and an iMessage extension that provides a secure peer-to-peer banking experience. Inspired from platforms like Venmo and Apple Pay, we explored new ways to make easy, quick, and secure transfers.
+                            {LangState.getLang().zapPayDesc}
                         </Description>
                     </Content>
                     <Footer>
@@ -169,7 +209,7 @@ const Projects = () => {
                                 win.focus();
                             }}
                         >
-                            Devpost
+                            {LangState.getLang().devPost}
                         </ActionButton>
                         <TechUsed fontSize='lg'>
                             <IconWrap>
@@ -185,10 +225,10 @@ const Projects = () => {
                     <ProjectPic src={rgb} alt={'RGB Color Guess'} />
                     <Content>
                         <Title fontSize='2xl'>
-                            RGB Color Guessing Game
+                            {LangState.getLang().rgb}
                         </Title>
                         <Description fontSize='lg'>
-                            A simple web-based game where the user guesses the color based on the given RGB. With two difficulties to play with, this game will test your perception of color through the RGB system!
+                            {LangState.getLang().rgbDesc}
                         </Description>
                     </Content>
                     <Footer>
@@ -200,7 +240,7 @@ const Projects = () => {
                                 win.focus();
                             }}
                         >
-                            Github Repo
+                            {LangState.getLang().githubRepo}
                         </ActionButton>
                         <TechUsed fontSize='lg'>
                             <IconWrap>
@@ -218,7 +258,7 @@ const Projects = () => {
             </ProjectsWrap>
         </Wrap>
     );
-};
+});
 
 const Wrap = styled.div`
     display: flex;

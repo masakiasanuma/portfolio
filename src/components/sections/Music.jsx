@@ -16,13 +16,16 @@ import {
     FaInstagram,
 } from 'react-icons/fa';
 
+import { LangState } from '../../lang';
+import { observer } from 'mobx-react';
+
 // Component featuring my guitar youtube channel & instagram
-const Music = () => {
+const Music = observer(() => {
     return (
         <Wrap>
-            <Heading size='3xl'>Music</Heading>
+            <Heading size='3xl'>{LangState.getLang().music}</Heading>
             <Text fontSize={{ base: '2xl' }} paddingTop={{ base: '20px' }}>
-                In my free time, I create fingerstyle guitar arrangements for various songs and post it up on Youtube & Instagram!
+                {LangState.getLang().musicDesc}
             </Text>
             <HStack paddingTop={{ base: '10px' }}>
                 <Button
@@ -35,7 +38,7 @@ const Music = () => {
                         win.focus();
                     }}
                 >
-                    Youtube
+                    {LangState.getLang().youtube}
                 </Button>
                 <Button
                     color='white'
@@ -47,30 +50,36 @@ const Music = () => {
                         win.focus();
                     }}
                 >
-                    Instagram
+                    {LangState.getLang().instagram}
                 </Button>
             </HStack>
             <VideoWrap>
                 <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>
-                    Her Most Beautiful Smile from Ruroruni Kenshin
+                    {LangState.getLang().herMost}
                 </Text>
                 <ReactPlayer url='https://www.youtube.com/watch?v=bAxEZuP0rmo' />
             </VideoWrap>
             <VideoWrap>
                 <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>
-                    Kakurenbo by Yuuri
+                    {LangState.getLang().kakurenbo}
                 </Text>
                 <ReactPlayer url='https://www.youtube.com/watch?v=tEjLwjOWmbk' />
             </VideoWrap>
             <VideoWrap>
                 <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>
-                    Viator from Maquia: When the Promised Flower Blooms
+                    {LangState.getLang().viator}
                 </Text>
                 <ReactPlayer url='https://www.youtube.com/watch?v=OMAyOiLmnmY' />
             </VideoWrap>
+            <VideoWrap>
+                <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>
+                    {LangState.getLang().sadness}
+                </Text>
+                <ReactPlayer url='https://youtu.be/PJULJ_MEVAQ' />
+            </VideoWrap>
         </Wrap>
     );
-};
+});
 
 const Wrap = styled.div`
     display: flex;

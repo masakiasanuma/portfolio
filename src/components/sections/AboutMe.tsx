@@ -20,16 +20,16 @@ import aboutme4 from '../../images/aboutme4.jpeg';
 import aboutme5 from '../../images/aboutme5.jpeg';
 import aboutme6 from '../../images/aboutme6.jpeg';
 
-const AboutMe = () => {
+import { LangState } from '../../lang';
+import { observer } from 'mobx-react';
+
+const AboutMe = observer(() => {
     return (
         <Wrap>
-            <Heading size='3xl'>Welcome!</Heading>
+            <Heading size='3xl'>{LangState.getLang().welcome}</Heading>
             <AboutWrap flexDirection={{ base: 'column' }}>
                 <Content fontSize='2xl'>
-                    My name is Masaki Asanuma, I am a 4th-year Computer Science undergraduate student 
-                    at Georgia Tech interested in exploring the different components that goes into designing, developing, and 
-                    deploying a software application in various contexts. Outside of CS, I love to play guitar/drums and drink 
-                    a delicious cup of Ethiopian coffee brewed using my Aeropress ☕
+                    {LangState.getLang().aboutme}
                 </Content>
                 <Pictures>
                     <Tabs
@@ -38,12 +38,12 @@ const AboutMe = () => {
                         variant='enclosed'
                     >
                         <TabList>
-                            <Tab>Shizuoka</Tab>
-                            <Tab>Takenoko</Tab>
-                            <Tab>Snow</Tab>
-                            <Tab>GT Drumline</Tab>
-                            <Tab>Guitar</Tab>
-                            <Tab>Kimono</Tab>
+                            <Tab>{LangState.getLang().shizuoka}</Tab>
+                            <Tab>{LangState.getLang().takenoko}</Tab>
+                            <Tab>{LangState.getLang().snow}</Tab>
+                            <Tab>{LangState.getLang().gtdl}</Tab>
+                            <Tab>{LangState.getLang().guitar}</Tab>
+                            <Tab>{LangState.getLang().kimono}</Tab>
                         </TabList>
                         <TabPanels>
                             <TabPanel>
@@ -70,7 +70,7 @@ const AboutMe = () => {
             </AboutWrap>
         </Wrap>
     );
-};
+});
 
 const Wrap = styled.div`
     display: flex;

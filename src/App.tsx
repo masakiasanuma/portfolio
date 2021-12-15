@@ -17,12 +17,15 @@ import { Music } from './components/sections/Music.jsx';
 import { Projects } from './components/sections/Projects';
 import { Skills } from './components/sections/Skills';
 
+import { LangState } from './lang';
+import { observer } from 'mobx-react';
+
 interface sections {
     [key: string]: string,
 }
 
 // Main application component
-const App = () => {
+const App = observer(() => {
     // Green color scheme
     const accessButtonColors: sections = {
         about: '#0DAB76',
@@ -71,7 +74,7 @@ const App = () => {
                 position={{ md: 'sticky', lg: 'fixed' }}
                 top={{ md: '0' }}
                 zIndex={{ base: 3 }}
-                left={{ md: '0px', lg: '350px' }}
+                left={{ md: '0px', lg: '340px' }}
                 height={{ md: '100%', lg: '100vh' }}
                 flexDirection={{ lg: 'column' }}
             >
@@ -80,45 +83,45 @@ const App = () => {
                     variant='square' 
                     onClick={() => handleAccessClick('about')}
                 >
-                    About
+                    {LangState.getLang().about}
                 </AccessButton>
                 <AccessButton
                     bg={accessButtonColors.experience}
                     variant='square'
                     onClick={() => handleAccessClick('experience')}
                 >
-                    Experience
+                    {LangState.getLang().experience}
                 </AccessButton>
                 <AccessButton
                     bg={accessButtonColors.education}
                     variant='square'
                     onClick={() => handleAccessClick('education')}
                 >
-                    Education
+                    {LangState.getLang().education}
                 </AccessButton>
                 <AccessButton
                     bg={accessButtonColors.projects}
                     variant='square'
                     onClick={() => handleAccessClick('projects')}
                 >
-                    Projects
+                    {LangState.getLang().projects}
                 </AccessButton>
                 <AccessButton
                     bg={accessButtonColors.skills}
                     variant='square'
                     onClick={() => handleAccessClick('skills')}
                 >
-                    Skills
+                    {LangState.getLang().skills}
                 </AccessButton>
                 <AccessButton
                     bg={accessButtonColors.music}
                     variant='square'
                     onClick={() => handleAccessClick('music')}
                 >
-                    Music
+                    {LangState.getLang().music}
                 </AccessButton>
             </AccessButtonWrap>
-                <Content marginLeft={{ md: '0px', lg: '100px' }}>
+                <Content marginLeft={{ md: '0px', lg: LangState.getLang().contentMgLeft }}>
                     {
                         sectionFlag === 'about' && 
                         <FadeWrap in={isOpen}>
@@ -158,7 +161,7 @@ const App = () => {
                 </Content>
         </Box>
     );
-};
+});
 
 const Content = styled(Box)`
     min-height: 100vh;

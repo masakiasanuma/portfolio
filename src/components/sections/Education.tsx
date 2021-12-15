@@ -19,11 +19,14 @@ import {
 import georgiatech from '../../images/gtlogo.png';
 import spartans from '../../images/spartans.jpg';
 
+import { LangState } from '../../lang';
+import { observer } from 'mobx-react';
+
 // Education section featuring the schools I went to
-const Education = () => {
+const Education = observer(() => {
     return (
         <Wrap>
-            <Heading size='3xl'>Education</Heading>
+            <Heading size='3xl'>{LangState.getLang().education}</Heading>
             <EducationEntry boxShadow='base'>
                 <EntryHeader>
                     <Image src={georgiatech} alt='GT' boxSize='100px' borderRadius='md' />
@@ -32,10 +35,10 @@ const Education = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <Bold><InfoText fontSize={{ base: '3xl' }}>Georgia Institute of Technology</InfoText></Bold>
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().gt}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
-                                    Aug 2018 - Dec 2022 (Expected)
+                                    08/2018 - 12/2022
                                 </Badge>
                             </DateBadge>
                         </HeaderWrap>
@@ -43,7 +46,7 @@ const Education = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>Bachelors of Science in Computer Science</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().bscs}</InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
@@ -52,34 +55,36 @@ const Education = () => {
                                 textTransform='uppercase'
                                 ml='2'
                             >
-                                Atlanta, Georgia
+                                {LangState.getLang().atl}
                             </Box>
                         </HeaderWrap>
                     </HeaderInfo>
                 </EntryHeader>
                 <EntryBody>
-                    <InfoText fontSize={{ base: 'xl' }}>Specializing in Information Internetworks & Media, focusing on studying networks and computer graphics.</InfoText>
+                    <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().gtDesc}</InfoText>
                     <AccordionWrap allowMultiple>
                         <AccordionItem>
                             <h2>
                             <AccordionButton _expanded={{ bg: '#A28D5B', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                    Relevant Coursework
+                                {LangState.getLang().relCourse}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
-                                    <ListItemPoint fontSize='lg'>Data Structures & Algorithms (Fundamental data structures & algorithms)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Design & Analysis of Algorithms (Dynamic programming, divide & conquer, graph algorithms, NP-complete, RSA encryption)  </ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Introduction to Software Engineering (SDLC concepts including requirements gathering, project planning, architecture diagrams)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Objects & Design (Software design principles such as SOLID & GRASP)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Introduction to Databases (Querying using SQL, designing & creating databases)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Computer Networking (Fundamental network concepts & protocols)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Object-Oriented Programming (Intro java course)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Computer Organization & Programming (Intro comptuer architecture with Assembly & C)</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Systems & Networks (OS concepts including processor design, pipelines, memory, scheduling, and networking)</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course1}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course2}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course3}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course4}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course5}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course6}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course7}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course8}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course9}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course10}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course11}</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -87,13 +92,13 @@ const Education = () => {
                             <h2>
                             <AccordionButton _expanded={{ bg: '#A28D5B', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                    Activities
+                                   {LangState.getLang().activities}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
-                            <InfoText fontSize={{ base: 'lg' }}>Snare Drummer at Yellow Jackets Marching Band, IT Support Assistant within College of Computing</InfoText>
+                            <InfoText fontSize={{ base: 'lg' }}>{LangState.getLang().actDesc}</InfoText>
                             </AccordionPanel>
                         </AccordionItem>
                     </AccordionWrap>
@@ -107,10 +112,10 @@ const Education = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <Bold><InfoText fontSize={{ base: '3xl' }}>South High School</InfoText></Bold>
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().south}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
-                                    Sep 2014 - Jun 2018
+                                    09/2014 - 06/2018
                                 </Badge>
                             </DateBadge>
                         </HeaderWrap>
@@ -118,7 +123,7 @@ const Education = () => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>High School Diploma</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().highSchool}</InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
@@ -127,27 +132,27 @@ const Education = () => {
                                 textTransform='uppercase'
                                 ml='2'
                             >
-                                Torrance, California
+                                {LangState.getLang().torrance}
                             </Box>
                         </HeaderWrap>
                     </HeaderInfo>
                 </EntryHeader>
                 <EntryBody>
-                    <InfoText fontSize={{ base: 'xl' }}>Developed my interest for software development & engineering primarily through AP Computer Science, Robotics, and working as a CS tutor/teacher.</InfoText>
+                    <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().southDesc}</InfoText>
                     <AccordionWrap allowMultiple>
                         <AccordionItem>
                             <h2>
                             <AccordionButton _expanded={{ bg: '#18453B', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                    Activities
+                                    {LangState.getLang().activities}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
                                 <UnorderedList>
-                                    <ListItemPoint fontSize='lg'>President at FRC Team 1197, primarily focused on robot software.</ListItemPoint>
-                                    <ListItemPoint fontSize='lg'>Drum Captain at Spartans Marching Band, performed as a snare drummer.</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().act1}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().act2}</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
@@ -156,7 +161,7 @@ const Education = () => {
             </EducationEntry>
         </Wrap>
     );
-};
+});
 
 const Wrap = styled.div`
     display: flex;
