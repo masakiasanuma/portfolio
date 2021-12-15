@@ -35,7 +35,13 @@ const Education = observer(() => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().gt}</InfoText></Bold>
+                            <Bold>
+                                <InfoText fontSize={{ base: '3xl' }}>
+                                    <a href='https://www.gatech.edu/' rel='noopener noreferrer' target='_blank'>
+                                        {LangState.getLang().gt}
+                                    </a>
+                                </InfoText>
+                            </Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
                                     08/2018 - 12/2022
@@ -67,7 +73,7 @@ const Education = observer(() => {
                             <h2>
                             <AccordionButton _expanded={{ bg: '#A28D5B', color: 'white', fontWeight: 'bolder' }}>
                                 <Box flex='1' textAlign='left'>
-                                {LangState.getLang().relCourse}
+                                    {LangState.getLang().relCourse}
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>

@@ -64,7 +64,7 @@ const SideBar = observer((props: { backgroundColor: any; }) => {
                     </a>
                 </Button>
                 <Button
-                    background='#'
+                    background='black'
                     _hover={{ bg: '#222' }}
                     onClick={() => {
                         LangState.getCurrLang() === 'en' ? LangState.setLang('jp') : LangState.setLang('en');

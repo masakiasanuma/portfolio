@@ -121,7 +121,11 @@ const Experience = observer(() => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().kit}</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>
+                                <a href='https://home.kpmg/jp/en/home/about/kit.html' rel='noopener noreferrer' target='_blank'>
+                                    {LangState.getLang().kit}
+                                </a>
+                            </InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
@@ -238,7 +242,11 @@ const Experience = observer(() => {
                             flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
-                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().ukg}</InfoText>
+                            <InfoText fontSize={{ base: '2xl' }}>
+                                <a href='https://www.ukg.com/' rel='noopener noreferrer' target='_blank'>
+                                    {LangState.getLang().ukg}
+                                </a>
+                            </InfoText>
                             <Box
                                 color='gray.500'
                                 fontWeight='semibold'
