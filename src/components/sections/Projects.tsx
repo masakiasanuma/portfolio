@@ -104,7 +104,7 @@ const Projects = observer(() => {
                             rightIcon={<FaGithub size={20} />}
                             colorScheme='blackAlpha'
                             onClick={() => {
-                                const win = window.open('https://github.com/cs3451-f21/assignment-3b-disks-area-lights-and-distribution-Masasasaki', '_blank')!;
+                                const win = window.open('https://github.com/masakiasanuma/ray-tracer', '_blank')!;
                                 win.focus();
                             }}
                         >
