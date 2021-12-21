@@ -69,7 +69,7 @@ const Projects = observer(() => {
                             rightIcon={<FaGithub size={20} />}
                             colorScheme='blackAlpha'
                             onClick={() => {
-                                const win = window.open('https://github.com/Masasasaki/portfolio/tree/dev', '_blank')!;
+                                const win = window.open('https://github.com/Masasasaki/portfolio/tree/master', '_blank')!;
                                 win.focus();
                             }}
                         >
