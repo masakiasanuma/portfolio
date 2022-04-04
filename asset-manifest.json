@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.bb062449.chunk.js",
-    "main.js.map": "/static/js/main.bb062449.chunk.js.map",
+    "main.js": "/static/js/main.f9ca3af7.chunk.js",
+    "main.js.map": "/static/js/main.f9ca3af7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.64fbee90.chunk.css": "/static/css/2.64fbee90.chunk.css",
@@ -12,17 +12,17 @@
     "static/js/2.66aaf323.chunk.js.LICENSE.txt": "/static/js/2.66aaf323.chunk.js.LICENSE.txt",
     "static/media/KPMG.ae17d14a.jpg": "/static/media/KPMG.ae17d14a.jpg",
     "static/media/MTS.5f7b182e.png": "/static/media/MTS.5f7b182e.png",
-    "static/media/aboutme1.a4f40b92.jpeg": "/static/media/aboutme1.a4f40b92.jpeg",
+    "static/media/aboutme1.8f25fde1.jpeg": "/static/media/aboutme1.8f25fde1.jpeg",
     "static/media/aboutme2.e53909a2.jpg": "/static/media/aboutme2.e53909a2.jpg",
     "static/media/aboutme3.71d30a25.jpeg": "/static/media/aboutme3.71d30a25.jpeg",
     "static/media/aboutme4.bce92703.jpeg": "/static/media/aboutme4.bce92703.jpeg",
-    "static/media/aboutme5.a91fb8c6.jpeg": "/static/media/aboutme5.a91fb8c6.jpeg",
+    "static/media/aboutme5.5ac1aa8e.jpeg": "/static/media/aboutme5.5ac1aa8e.jpeg",
     "static/media/aboutme6.9e3fe718.jpeg": "/static/media/aboutme6.9e3fe718.jpeg",
     "static/media/gtlogo.7c3c5097.png": "/static/media/gtlogo.7c3c5097.png",
-    "static/media/guitar1.5ac1aa8e.jpeg": "/static/media/guitar1.5ac1aa8e.jpeg",
     "static/media/300.css": "/static/media/source-sans-pro-vietnamese-300-normal.2a39e4fa.woff2",
     "static/media/mangadexterity.08ff6aa7.png": "/static/media/mangadexterity.08ff6aa7.png",
     "static/media/portfolio.a49ab8b6.png": "/static/media/portfolio.a49ab8b6.png",
+    "static/media/profile.52d83460.jpeg": "/static/media/profile.52d83460.jpeg",
     "static/media/raytrace.8f4b1773.png": "/static/media/raytrace.8f4b1773.png",
     "static/media/resume.557b858f.pdf": "/static/media/resume.557b858f.pdf",
     "static/media/rgb.f63660d2.png": "/static/media/rgb.f63660d2.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.b83279d6.js",
     "static/css/2.64fbee90.chunk.css",
     "static/js/2.66aaf323.chunk.js",
-    "static/js/main.bb062449.chunk.js"
+    "static/js/main.f9ca3af7.chunk.js"
   ]
 }
