@@ -12,7 +12,7 @@ import {
 
 import { EmailIcon } from '@chakra-ui/icons';
 import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa';
-import profile from '../images/guitar1.jpeg';
+import profile from '../images/profile.jpeg';
 import resume from '../resume.pdf';
 
 import { LangState } from '../lang';
@@ -93,7 +93,6 @@ const Bold = styled.span`
 
 const Status = styled(Text)`
     background: white;
-    border-radius: 15px;
     color: black;
     font-weight: bolder;
     margin: 10px;

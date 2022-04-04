@@ -38,7 +38,7 @@ const AboutMe = observer(() => {
                         variant='enclosed'
                     >
                         <TabList>
-                            <Tab>{LangState.getLang().shizuoka}</Tab>
+                            <Tab>{LangState.getLang().tybee}</Tab>
                             <Tab>{LangState.getLang().takenoko}</Tab>
                             <Tab>{LangState.getLang().snow}</Tab>
                             <Tab>{LangState.getLang().gtdl}</Tab>
@@ -47,7 +47,7 @@ const AboutMe = observer(() => {
                         </TabList>
                         <TabPanels>
                             <TabPanel>
-                                <AboutPic src={aboutme1} alt='Ito, Shizuoka' />
+                                <AboutPic src={aboutme1} alt='Tybee Island, GA' />
                             </TabPanel>
                             <TabPanel>
                                 <AboutPic src={aboutme2} alt='Harvesting Takenoko' />
@@ -103,7 +103,6 @@ const Content = styled(Text)`
 
 const AboutPic = styled(Image)`
     max-height: 500px;
-    border-radius: 15px;
 `;
 
 export { AboutMe };

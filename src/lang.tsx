@@ -14,7 +14,7 @@ const en = {
 
     welcome: 'Welcome!',
     aboutme: 'My name is Masaki Asanuma, I am a 4th-year Computer Science undergraduate student at Georgia Tech interested in exploring the different components that goes into designing, developing, and deploying a software application in various contexts. Outside of CS, I love to play guitar/drums and drink a delicious cup of Ethiopian coffee brewed using my Aeropress ☕',
-    shizuoka: 'Shizuoka',
+    tybee: 'Tybee Island',
     takenoko: 'Takenoko',
     snow: 'Snow',
     gtdl: 'GT Drumline',
@@ -125,7 +125,7 @@ const jp = {
 
     welcome: 'ようこそ！',
     aboutme: '初めまして！浅沼真樹と申します。ジョージア工科大学でコンピューターサイエンスを勉強している大学4年生です。ソフトウェア開発に取り組んでいない時はソロギターを弾いたり、エアロプレスと色々な国からの豆を使ってコーヒーを淹れて過ごしています☕',
-    shizuoka: '静岡',
+    tybee: 'タイビーアイランド',
     takenoko: '竹の子狩り',
     snow: '雪',
     gtdl: 'ドラムライン',
