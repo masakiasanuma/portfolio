@@ -19,6 +19,7 @@ import {
 import mts from '../../images/MTS.png';
 import mangadex from '../../images/mangadexterity.png';
 import portfolio from '../../images/portfolio.png';
+import neocirc from '../../images/neocirc.png';
 import rgb from '../../images/rgb.png';
 import zappay from '../../images/zappay.png';
 import raytrace from '../../images/raytrace.png';
@@ -54,6 +55,37 @@ const Projects = observer(() => {
         <Wrap>
             <Heading size='3xl'>{LangState.getLang().projects}</Heading>
             <ProjectsWrap>
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
+                    <ProjectPic src={neocirc} alt={'NeoCirc'} />
+                    <Content>
+                        <Title fontSize='2xl'>
+                            {LangState.getLang().neocirc}
+                        </Title>
+                        <Description fontSize='lg'>
+                            {LangState.getLang().neocircDesc}
+                        </Description>
+                    </Content>
+                    <Footer>
+                        <ActionButton
+                            rightIcon={<FaGithub size={20} />}
+                            colorScheme='blackAlpha'
+                            onClick={() => {
+                                const win = window.open('https://github.com/NeoCirc/neocirc-website', '_blank')!;
+                                win.focus();
+                            }}
+                        >
+                            {LangState.getLang().githubRepo}
+                        </ActionButton>
+                        <TechUsed fontSize='lg'>
+                            <IconWrap>
+                                <FaReact size={iconSize} />
+                            </IconWrap>
+                            <IconWrap>
+                                <SiStyledcomponents size={iconSize} />
+                            </IconWrap>
+                        </TechUsed>
+                    </Footer>
+                </ProjectEntry>
                 <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={portfolio} alt={'Portfolio'} />
                     <Content>

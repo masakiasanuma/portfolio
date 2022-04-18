@@ -76,6 +76,8 @@ const en = {
     act1: 'President at FRC Team 1197, primarily focused on robot software.',
     act2: 'Drum Captain at Spartans Marching Band, performed as a snare drummer.',
 
+    neocirc: 'NeoCirc',
+    neocircDesc: 'Educational platform for teaching Doctors, Nurses, and Parents about neonatal circumcision. Developed in a team of 5 for Georgia Tech Capstone class.',
     portfolio: 'Portfolio',
     portDesc: 'The website that you are on right now! After gaining React experience during my internship at KPMG, I decided to rebuild my portfolio site utilizing my frontend skills that I developed throughout the internship.',
     githubRepo: 'GitHub Repo',
@@ -187,6 +189,8 @@ const jp = {
     act1: 'ロボット部FRC Team 1197の部長',
     act2: 'マーチングバンドのドラムラインリーダー',
 
+    neocirc: 'NeoCirc',
+    neocircDesc: '医者や親が新生児の割礼を学ぶための教育プラットフォーム。',
     portfolio: 'ポートフォリオ',
     portDesc: '今あなたが見ているサイトです！インターンシップから得たReact.jsの知識を利用して開発した履歴書サイトです。',
     githubRepo: 'GitHubリポジトリ',
