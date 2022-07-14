@@ -55,15 +55,15 @@ const Music = observer(() => {
             </HStack>
             <VideoWrap>
                 <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>
-                    {LangState.getLang().herMost}
+                    {LangState.getLang().prison}
                 </Text>
-                <ReactPlayer url='https://www.youtube.com/watch?v=bAxEZuP0rmo' />
+                <ReactPlayer url='https://www.youtube.com/watch?v=e8SCe00r0ek' />
             </VideoWrap>
             <VideoWrap>
                 <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>
-                    {LangState.getLang().kakurenbo}
+                    {LangState.getLang().tsurumi}
                 </Text>
-                <ReactPlayer url='https://www.youtube.com/watch?v=tEjLwjOWmbk' />
+                <ReactPlayer url='https://www.youtube.com/watch?v=29nmluxZQeo' />
             </VideoWrap>
             <VideoWrap>
                 <Text fontSize={{ base: 'xl' }} fontWeight='bolder' padding='10px 0px 10px 0px'>

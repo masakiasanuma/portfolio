@@ -76,7 +76,7 @@ const Experience = observer(() => {
                             <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().sde}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
-                                    05/2022 - 07/2022
+                                    05/2022 - 08/2022
                                 </Badge>
                             </DateBadge>
                         </HeaderWrap>
@@ -100,6 +100,35 @@ const Experience = observer(() => {
                 </EntryHeader>
                 <EntryBody>
                     <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().amazonDesc}</InfoText>
+                    <AccordionWrap allowMultiple>
+                        <AccordionItem>
+                            <h2>
+                            <AccordionButton _expanded={{ bg: '#131a22', color: 'white', fontWeight: 'bolder' }}>
+                                <Box flex='1' textAlign='left'>
+                                    {LangState.getLang().details}
+                                </Box>
+                                <AccordionIcon />
+                            </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                <UnorderedList>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().amznDetail1}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().amznDetail2}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().amznDetail3}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().amznDetail4}</ListItemPoint>
+                                </UnorderedList>
+                            </AccordionPanel>
+                        </AccordionItem>
+                    </AccordionWrap>
+                    <TechUsed>
+                        <IconWrap bg='#131a22' boxShadow='base'>
+                            <SiTypescript size={iconSize} />
+                            <Text paddingLeft='5px'>TypeScript</Text>
+                        </IconWrap>
+                        <IconWrap bg='#131a22' boxShadow='base'>
+                            <Text paddingLeft='5px'>Bunch of internal technologies, frameworks, and tools</Text>
+                        </IconWrap>
+                    </TechUsed>
                 </EntryBody>
             </ExperienceEntry>
             <ExperienceEntry boxShadow='base'>
