@@ -10,7 +10,6 @@ const en = {
     education: 'Education',
     projects: 'Projects',
     skills: 'Skills',
-    music: 'Music',
 
     welcome: 'Welcome!',
     aboutme: 'My name is Masaki Asanuma, I am a 4th-year Computer Science undergraduate student at Georgia Tech interested in exploring the different components that goes into designing, developing, and deploying a software application in various contexts. Outside of CS, I love to play guitar/drums and drink a delicious cup of Ethiopian coffee brewed using my Aeropress ☕',
@@ -106,14 +105,6 @@ const en = {
     os: 'Operating Systems',
     skillsDesc: 'Here are the programming languages, technologies, tools, & operating systems that I have used throughout my career. Some skills I am more comfortable/proficient than others, but I have been exposed to all the listed tech and I am confident that I can quickly refresh my knowledge about it. Always expanding & willing to learn new cool stuff to use in projects!',
 
-    musicDesc: 'In my free time, I create fingerstyle guitar arrangements for various songs and post it up on Youtube & Instagram!',
-    youtube: 'YouTube',
-    instagram: 'Instagram',
-    prison: 'Prisoners of Fate from Chrono Cross',
-    tsurumi: 'Tsurumi Island from Genshin Impact',
-    viator: 'Viator from Maquia: When the Promised Flower Blooms',
-    sadness: 'Sadness and Sorrow from Naruto',
-
     contentMgLeft: '100px',
 };
 
@@ -127,7 +118,6 @@ const jp = {
     education: '学歴',
     projects: 'プロジェクト',
     skills: '技術',
-    music: '音楽',
 
     welcome: 'ようこそ！',
     aboutme: '初めまして！浅沼真樹と申します。ジョージア工科大学でコンピューターサイエンスを勉強している大学4年生です。ソフトウェア開発に取り組んでいない時はソロギターを弾いたり、エアロプレスと色々な国からの豆を使ってコーヒーを淹れて過ごしています☕',
@@ -222,14 +212,6 @@ const jp = {
     tools: 'ツール',
     os: 'オペレーティングシステム',
     skillsDesc: '今までプロジェクトやインターンシップで取得したプログラミング言語やテクノロジーなどのリストです。いつでも新しい技術を身につけたいので使った事のない技術スタックでも素早く習う自信があります！',
-
-    musicDesc: '趣味で好きな曲のソロギターアレンジを作ってます。もし興味があればYouTubeとInstagramやってます！',
-    youtube: 'YouTube',
-    instagram: 'Instagram',
-    prison: '運命に囚われし者たち - クロノクロス',
-    tsurumi: 'つるみ島 - 原神',
-    viator: 'Viator - さよならの朝に約束の花を飾ろう',
-    sadness: '哀と悲 - ナルト',
 
     contentMgLeft: '120px',
 };

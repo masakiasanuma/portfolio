@@ -13,7 +13,6 @@ import { SideBar } from './components/SideBar';
 import { AboutMe } from './components/sections/AboutMe';
 import { Experience } from './components/sections/Experience';
 import { Education } from './components/sections/Education';
-import { Music } from './components/sections/Music.jsx';
 import { Projects } from './components/sections/Projects';
 import { Skills } from './components/sections/Skills';
 
@@ -32,8 +31,7 @@ const App = observer(() => {
         experience: '#139A43',
         education: '#0B5D1E',
         projects: '#053B06',
-        skills: '#000000',
-        music: '#453643',
+        skills: '#000000'
     };
 
     // Section flag & color state that changes on access button click
@@ -113,13 +111,6 @@ const App = observer(() => {
                 >
                     {LangState.getLang().skills}
                 </AccessButton>
-                <AccessButton
-                    bg={accessButtonColors.music}
-                    variant='square'
-                    onClick={() => handleAccessClick('music')}
-                >
-                    {LangState.getLang().music}
-                </AccessButton>
             </AccessButtonWrap>
                 <Content marginLeft={{ md: '0px', lg: LangState.getLang().contentMgLeft }}>
                     {
@@ -150,12 +141,6 @@ const App = observer(() => {
                         sectionFlag === 'skills' && 
                         <FadeWrap in={isOpen}>
                             <Skills />
-                        </FadeWrap>
-                    }
-                    {
-                        sectionFlag === 'music' && 
-                        <FadeWrap in={isOpen}>
-                            <Music />
                         </FadeWrap>
                     }
                 </Content>
