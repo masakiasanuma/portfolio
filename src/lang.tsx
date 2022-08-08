@@ -23,9 +23,9 @@ const en = {
     sde: 'Software Development Engineer Intern',
     amazon: 'Amazon',
     seattle: 'Seattle, WA',
-    amazonDesc: 'Intern in the High Velocity Events Landing Page team, developed a fully customizable frontend carousel component to be displayed to customers across 25 countries during events (200M+ traffic) such as Prime Day, Black Friday, and Cyber Monday.',
-    amznDetail1: 'Implemented customizable layout, content, animation, and behavior for the carousel component.',
-    amznDetail2: 'Ensured production quality through robust unit tests, E2E tests, and metrics dashboards & alarms.',
+    amazonDesc: 'Intern in the High Velocity Events Landing Page team, developed a fully-customizable & production-ready frontend carousel component to be displayed to customers across 25 countries during high velocity events (200M+ traffic) such as Prime Day, Black Friday, and Cyber Monday.',
+    amznDetail1: 'Implemented customizability for carousel styling, content, layout, and animations to adapt to any business needs.',
+    amznDetail2: 'Ensured production quality & robustness through unit tests, E2E tests, and metrics dashboards & alarms.',
     amznDetail3: 'Created responsive design for supporting desktop, tablet, and mobile devices.',
     amznDetail4: 'Integrated localized strings to support all languages supported by Amazon.',
 
