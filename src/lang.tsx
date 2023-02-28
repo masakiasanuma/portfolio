@@ -3,7 +3,7 @@ import { makeObservable, observable } from 'mobx';
 const en = {
     firstName: 'Masaki',
     lastName: 'Asanuma',
-    status: 'Seeking entry positions for early 2023',
+    // status: 'Seeking entry positions for early 2023',
 
     about: 'About',
     experience: 'Experience',
@@ -11,16 +11,18 @@ const en = {
     projects: 'Projects',
     skills: 'Skills',
 
-    welcome: 'Welcome!',
-    aboutme: 'My name is Masaki Asanuma, I am a 4th-year Computer Science undergraduate student at Georgia Tech interested in exploring the different components that goes into designing, developing, and deploying a software application in various contexts. Outside of CS, I love to play guitar/drums and drink a delicious cup of Ethiopian coffee brewed using my Aeropress ☕',
-    tybee: 'Tybee Island',
-    takenoko: 'Takenoko',
-    snow: 'Snow',
-    gtdl: 'GT Drumline',
-    guitar: 'Guitar',
-    kimono: 'Kimono',
+    welcome: 'Hello!',
+    aboutme: 'My name is Masaki Asanuma, and I am currently working at Amazon Japan as a Software Development Engineer in Tokyo. I was born and raised in Southern California (Torrance) and I recently graduated from Georgia Tech with a Bachelor\'s in Computer Science. Outside work, I love to play guitar, explore various coffee roasters, and play video games!',
+    aboutmePic1: 'Tybee Island',
+    aboutmePic2: 'Guitar',
+    aboutmePic3: 'GT Drumline',
+    aboutmePic4: 'Snow',
+    aboutmePic5: 'Graduation',
 
-    sde: 'Software Development Engineer Intern',
+    sde: 'Software Development Engineer',
+    tokyoMeguro: 'Tokyo, Japan',
+
+    sdeIntern: 'Software Development Engineer Intern',
     amazon: 'Amazon',
     seattle: 'Seattle, WA',
     amazonDesc: 'Intern in the High Velocity Events Landing Page team, developed a fully-customizable & production-ready frontend carousel component to be displayed to customers across 25 countries during high velocity events (200M+ traffic) such as Prime Day, Black Friday, and Cyber Monday.',
@@ -31,7 +33,7 @@ const en = {
 
     se: 'Software Engineer Intern',
     kit: 'KPMG Ignition Tokyo',
-    tokyo: 'Tokyo, Japan',
+    tokyoChiyoda: 'Tokyo, Japan',
     kitDesc: 'Frontend, Backend, & Core logic dev for 2 applications/projects aimed to be utilized by KPMG Japan employees for automating/supporting their auditing, accounting, and risk management tasks.',
     docuSearch: 'Document Search Service (Mar - Jul)',
     docuDesc1: 'Developed both the frontend (React Hooks, TypeScript) and backend (Python Django, PostgresSQL) of the first phase of a document search service web application utilized by KPMG Japan auditors.',
@@ -69,6 +71,8 @@ const en = {
     course9: 'Systems & Networks (OS concepts including processor design, pipelines, memory, scheduling, and networking)',
     course10: 'Computer Graphics (Intro graphics course)',
     course11: 'Privacy Tech Policy Law (In-depth view into privacy in the tech field, dissected privacy policies and conducted privacy impact assessments)',
+    course12: 'Computer Audio (Project-based intro audio programming course using Processing and Beads)',
+    course13: 'Info Visualization (Intro InfoViz course using D3.js)',
     activities: 'Activities',
     actDesc: 'Snare Drummer at Yellow Jackets Marching Band, IT Support Assistant within College of Computing',
 
@@ -79,6 +83,8 @@ const en = {
     act1: 'President at FRC Team 1197, primarily focused on robot software.',
     act2: 'Drum Captain at Spartans Marching Band, performed as a snare drummer.',
 
+    infoviz: 'Transportation Fatalities Viz',
+    infovizDesc: 'A simple visualization exploring the progression of transportation fatalities across 5 different modes (Car, Pedestrian, Motorcycle, Bicycle, Truck) from 1975 to 2020.',
     neocirc: 'NeoCirc',
     neocircDesc: 'Educational platform for teaching Doctors, Nurses, and Parents about neonatal circumcision. Developed in a team of 5 for Georgia Tech Capstone class.',
     portfolio: 'Portfolio',
@@ -111,7 +117,7 @@ const en = {
 const jp = {
     firstName: '浅沼',
     lastName: '真樹',
-    status: '2023年始のエンジニア職を探し中',
+    // status: '2023年始のエンジニア職を探し中',
 
     about: '自己紹介',
     experience: '職歴',
@@ -120,15 +126,17 @@ const jp = {
     skills: '技術',
 
     welcome: 'ようこそ！',
-    aboutme: '初めまして！浅沼真樹と申します。ジョージア工科大学でコンピューターサイエンスを勉強している大学4年生です。ソフトウェア開発に取り組んでいない時はソロギターを弾いたり、エアロプレスと色々な国からの豆を使ってコーヒーを淹れて過ごしています☕',
-    tybee: 'タイビーアイランド',
-    takenoko: '竹の子狩り',
-    snow: '雪',
-    gtdl: 'ドラムライン',
-    guitar: 'ギター',
-    kimono: '着物',
+    aboutme: '初めまして！浅沼真樹と申します。現在アマゾンジャパンでソフトウェア開発エンジニアとして働いています。南カルフォルニア（トーランス）で生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専門にして2022年12月に卒業しました。ソフトウェア開発に取り組んでいない時はギターを弾いたり、自家焙煎カフェ巡りをしています！',
+    aboutmePic1: 'タイビーアイランド',
+    aboutmePic2: '竹の子狩り',
+    aboutmePic3: '雪',
+    aboutmePic4: 'ドラムライン',
+    aboutmePic5: 'ギター',
 
-    sde: 'ソフトウェア エンジニア インターン',
+    sde: 'ソフトウェア開発エンジニア',
+    tokyoMeguro: '東京都目黒区',
+
+    sdeIntern: 'ソフトウェア エンジニア インターン',
     amazon: 'Amazon',
     seattle: 'シアトル、ワシントン州',
     amazonDesc: 'プライムデー・ブラックフライデー・サイバーマンデーなどの高トラフィックイベントのランディングページに表示される全面カスタマイズ可能のカルーセルUIを開発しました。',
@@ -139,7 +147,7 @@ const jp = {
 
     se: 'ソフトウェア エンジニア インターン',
     kit: '株式会社KPMG Ignition Tokyo',
-    tokyo: '東京都千代田区',
+    tokyoChiyoda: '東京都千代田区',
     kitDesc: 'あずさ監査法人の監査デジタルトランスフォーメーションの為に活用された証憑突合作業の自動化ツールと書類検索&管理ウェブアプリの開発に取り組んでいました。フロントエンドはReact.jsとTypeScriptを利用し、バックエンドはPythonとDjangoを使用しました。',
     docuSearch: '書類検索&管理ウェブアプリ (詳細)',
     docuDesc1: '第一段階の監査書類検索＆管理ウェブアプリのフロントエンド(React Hooks, TypeScript)とバックエンド(Python Django, PostgresSQL)を開発',
@@ -177,8 +185,10 @@ const jp = {
     course9: 'オペレーティングシステム',
     course10: 'コンピューターグラフィックス',
     course11: 'プライバシー',
+    course12: 'コンピューター音声',
+    course13: 'データ可視化',
     activities: '部活',
-    actDesc: 'マーチングバンドとドラムライン',
+    actDesc: 'マーチングバンド、ドラムライン、ITサポートのバイト',
 
     south: 'サウスハイスクール',
     highSchool: 'ハイスクールディプロマ',
@@ -187,6 +197,8 @@ const jp = {
     act1: 'ロボット部FRC Team 1197の部長',
     act2: 'マーチングバンドのドラムラインリーダー',
 
+    infoviz: '交通事故統計の可視化ツール',
+    infovizDesc: '様々な交通手段の事故死亡確率を1975年から2020年の間にどう進行しているかを比較する可視化ツール。',
     neocirc: 'NeoCirc',
     neocircDesc: '医者や親が新生児の割礼を学ぶための教育プラットフォーム。',
     portfolio: 'ポートフォリオ',

@@ -5,20 +5,10 @@ import {
     Box,
     Heading,
     Text,
-    Image,
-    Tab,
-    TabList,
-    TabPanel,
-    TabPanels,
-    Tabs
+    Image
 } from '@chakra-ui/react';
 
-import aboutme1 from '../../images/aboutme1.jpeg';
-import aboutme2 from '../../images/aboutme2.jpg';
-import aboutme3 from '../../images/aboutme3.jpeg';
-import aboutme4 from '../../images/aboutme4.jpeg';
-import aboutme5 from '../../images/aboutme5.jpeg';
-import aboutme6 from '../../images/aboutme6.jpeg';
+import aboutme from '../../images/aboutme.jpg';
 
 import { LangState } from '../../lang';
 import { observer } from 'mobx-react';
@@ -32,40 +22,7 @@ const AboutMe = observer(() => {
                     {LangState.getLang().aboutme}
                 </Content>
                 <Pictures>
-                    <Tabs
-                        align='center'
-                        colorScheme='blackAlpha'
-                        variant='enclosed'
-                    >
-                        <TabList>
-                            <Tab>{LangState.getLang().tybee}</Tab>
-                            <Tab>{LangState.getLang().takenoko}</Tab>
-                            <Tab>{LangState.getLang().snow}</Tab>
-                            <Tab>{LangState.getLang().gtdl}</Tab>
-                            <Tab>{LangState.getLang().guitar}</Tab>
-                            <Tab>{LangState.getLang().kimono}</Tab>
-                        </TabList>
-                        <TabPanels>
-                            <TabPanel>
-                                <AboutPic src={aboutme1} alt='Tybee Island, GA' />
-                            </TabPanel>
-                            <TabPanel>
-                                <AboutPic src={aboutme2} alt='Harvesting Takenoko' />
-                            </TabPanel>
-                            <TabPanel>
-                                <AboutPic src={aboutme3} alt='Snowing in Tokyo' />
-                            </TabPanel>
-                            <TabPanel>
-                                <AboutPic src={aboutme4} alt='GT drumline freshman year' />
-                            </TabPanel>
-                            <TabPanel>
-                                <AboutPic src={aboutme5} alt='Guitar recording' />
-                            </TabPanel>
-                            <TabPanel>
-                                <AboutPic src={aboutme6} alt='Me in a kimono at a temple' />
-                            </TabPanel>
-                        </TabPanels>
-                    </Tabs>
+                    <AboutPic src={aboutme} alt='About Me Pic' />
                 </Pictures>
             </AboutWrap>
         </Wrap>
@@ -97,7 +54,7 @@ const Content = styled(Text)`
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-weight: bolder;
+    font-weight: lighter;
     padding: 30px;
 `;
 

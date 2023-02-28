@@ -65,7 +65,7 @@ const Experience = observer(() => {
     return (
         <Wrap>
             <Heading size='3xl'>{LangState.getLang().experience}</Heading>
-            <ExperienceEntry boxShadow='base'>
+            <ExperienceEntry boxShadow='base' backgroundColor='#139A43' color='white'>
                 <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>
                     <Image src={amazon} alt='amazon' boxSize='100px' borderRadius='md' />
                     <HeaderInfo>
@@ -74,6 +74,40 @@ const Experience = observer(() => {
                             alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
                         >
                             <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().sde}</InfoText></Bold>
+                            <DateBadge>
+                                <Badge borderRadius='full' px='2' colorScheme='white'>
+                                    03/2023 - Present
+                                </Badge>
+                            </DateBadge>
+                        </HeaderWrap>
+                        <HeaderWrap
+                            flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
+                            alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
+                        >
+                            <InfoText fontSize={{ base: '2xl' }}>{LangState.getLang().amazon}</InfoText>
+                            <Box
+                                color='white.500'
+                                fontWeight='semibold'
+                                letterSpacing='wide'
+                                fontSize='xs'
+                                textTransform='uppercase'
+                                ml='2'
+                            >
+                                {LangState.getLang().tokyoMeguro}
+                            </Box>
+                        </HeaderWrap>
+                    </HeaderInfo>
+                </EntryHeader>
+            </ExperienceEntry>
+            <ExperienceEntry boxShadow='base'>
+                <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>
+                    <Image src={amazon} alt='amazon' boxSize='100px' borderRadius='md' />
+                    <HeaderInfo>
+                        <HeaderWrap
+                            flexDirection={{ base: 'column', md: 'row', lg: 'column', xl: 'row' }}
+                            alignItems={{ base: 'flex-start', md: 'center', lg: 'flex-start', xl: 'center' }}
+                        >
+                            <Bold><InfoText fontSize={{ base: '3xl' }}>{LangState.getLang().sdeIntern}</InfoText></Bold>
                             <DateBadge>
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
                                     05/2022 - 08/2022
@@ -163,7 +197,7 @@ const Experience = observer(() => {
                                 textTransform='uppercase'
                                 ml='2'
                             >
-                                {LangState.getLang().tokyo}
+                                {LangState.getLang().tokyoChiyoda}
                             </Box>
                         </HeaderWrap>
                     </HeaderInfo>

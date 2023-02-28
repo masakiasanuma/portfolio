@@ -27,12 +27,13 @@ const SideBar = observer((props: { backgroundColor: any; }) => {
                     src={profile}
                     alt='Masaki Asanuma'
                     borderRadius='full'
-                    width={{ base: '275px' }}
+                    width={{ base: '300px' }}
                 />
             </Box>
             <Text fontSize={{ base: '40px' }}>{LangState.getLang().firstName} <Bold>{LangState.getLang().lastName}</Bold></Text>
             <Divider />
-            <Status fontSize={{ base: 'lg' }}>{LangState.getLang().status}</Status>
+            {/* Commenting out the status bar until I start looking for a new job */}
+            {/* <Status fontSize={{ base: 'lg' }}>{LangState.getLang().status}</Status> */}
             <Text fontSize={{ base: 'lg' }}><EmailIcon /> - masakiasanuma@outlook.com</Text>
             <HStack paddingTop='10px'>
                 <Button
@@ -91,12 +92,12 @@ const Bold = styled.span`
     font-weight: bold;
 `;
 
-const Status = styled(Text)`
-    background: white;
-    color: black;
-    font-weight: bolder;
-    margin: 10px;
-    padding: 0px 10px 0px 10px;
-`;
+// const Status = styled(Text)`
+//     background: white;
+//     color: black;
+//     font-weight: bolder;
+//     margin: 10px;
+//     padding: 0px 10px 0px 10px;
+// `;
 
 export { SideBar };

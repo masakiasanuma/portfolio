@@ -23,6 +23,7 @@ import neocirc from '../../images/neocirc.png';
 import rgb from '../../images/rgb.png';
 import zappay from '../../images/zappay.png';
 import raytrace from '../../images/raytrace.png';
+import infoviz from '../../images/infoviz.png';
 
 import {
     FaReact,
@@ -55,6 +56,35 @@ const Projects = observer(() => {
         <Wrap>
             <Heading size='3xl'>{LangState.getLang().projects}</Heading>
             <ProjectsWrap>
+                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
+                    <ProjectPic src={infoviz} alt={'InfoViz'} />
+                    <Content>
+                        <Title fontSize='2xl'>
+                            {LangState.getLang().infoviz}
+                        </Title>
+                        <Description fontSize='lg'>
+                            {LangState.getLang().infovizDesc}
+                        </Description>
+                    </Content>
+                    <Footer>
+                        <ActionButton
+                            rightIcon={<FaGithub size={20} />}
+                            colorScheme='blackAlpha'
+                            onClick={() => {
+                                const win = window.open('https://github.com/masakiasanuma/transportation-fatalities-viz', '_blank')!;
+                                win.focus();
+                            }}
+                        >
+                            {LangState.getLang().githubRepo}
+                        </ActionButton>
+                        <TechUsed fontSize='lg'>
+                            <IconWrap>
+                                <SiJavascript size={iconSize} />
+                            </IconWrap>
+                            <Text paddingLeft='5px'>D3.js</Text>
+                        </TechUsed>
+                    </Footer>
+                </ProjectEntry>
                 <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
                     <ProjectPic src={neocirc} alt={'NeoCirc'} />
                     <Content>

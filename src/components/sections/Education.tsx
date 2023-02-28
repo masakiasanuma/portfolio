@@ -91,6 +91,8 @@ const Education = observer(() => {
                                     <ListItemPoint fontSize='lg'>{LangState.getLang().course9}</ListItemPoint>
                                     <ListItemPoint fontSize='lg'>{LangState.getLang().course10}</ListItemPoint>
                                     <ListItemPoint fontSize='lg'>{LangState.getLang().course11}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course12}</ListItemPoint>
+                                    <ListItemPoint fontSize='lg'>{LangState.getLang().course13}</ListItemPoint>
                                 </UnorderedList>
                             </AccordionPanel>
                         </AccordionItem>
