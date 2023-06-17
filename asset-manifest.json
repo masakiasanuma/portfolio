@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.34a7b9ef.chunk.js",
-    "main.js.map": "/static/js/main.34a7b9ef.chunk.js.map",
+    "main.js": "/static/js/main.48e218b3.chunk.js",
+    "main.js.map": "/static/js/main.48e218b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.64fbee90.chunk.css": "/static/css/2.64fbee90.chunk.css",
-    "static/js/2.ffe30f87.chunk.js": "/static/js/2.ffe30f87.chunk.js",
-    "static/js/2.ffe30f87.chunk.js.map": "/static/js/2.ffe30f87.chunk.js.map",
+    "static/js/2.364bc8d4.chunk.js": "/static/js/2.364bc8d4.chunk.js",
+    "static/js/2.364bc8d4.chunk.js.map": "/static/js/2.364bc8d4.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.64fbee90.chunk.css.map": "/static/css/2.64fbee90.chunk.css.map",
-    "static/js/2.ffe30f87.chunk.js.LICENSE.txt": "/static/js/2.ffe30f87.chunk.js.LICENSE.txt",
+    "static/js/2.364bc8d4.chunk.js.LICENSE.txt": "/static/js/2.364bc8d4.chunk.js.LICENSE.txt",
     "static/media/KPMG.ae17d14a.jpg": "/static/media/KPMG.ae17d14a.jpg",
     "static/media/MTS.5f7b182e.png": "/static/media/MTS.5f7b182e.png",
-    "static/media/aboutme.9362f2c9.jpg": "/static/media/aboutme.9362f2c9.jpg",
     "static/media/gtlogo.7c3c5097.png": "/static/media/gtlogo.7c3c5097.png",
     "static/media/infoviz.48772ac6.png": "/static/media/infoviz.48772ac6.png",
     "static/media/300.css": "/static/media/source-sans-pro-vietnamese-300-normal.2a39e4fa.woff2",
@@ -29,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
     "static/css/2.64fbee90.chunk.css",
-    "static/js/2.ffe30f87.chunk.js",
-    "static/js/main.34a7b9ef.chunk.js"
+    "static/js/2.364bc8d4.chunk.js",
+    "static/js/main.48e218b3.chunk.js"
   ]
 }
