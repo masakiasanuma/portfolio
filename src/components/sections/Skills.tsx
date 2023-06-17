@@ -118,7 +118,7 @@ const Skills = observer(() => {
                 <EntryBody>
                     <IconWrap>
                         <FaReact size={iconSize} />
-                        <Text>React (Hooks, Router, MobX)</Text>
+                        <Text>React</Text>
                     </IconWrap>
                     <IconWrap>
                         <FaDocker size={iconSize} />

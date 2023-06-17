@@ -5,13 +5,11 @@ import {
     Box,
     Heading,
     Text,
-    Image
 } from '@chakra-ui/react';
-
-import aboutme from '../../images/aboutme.jpg';
 
 import { LangState } from '../../lang';
 import { observer } from 'mobx-react';
+import ReactPlayer from 'react-player';
 
 const AboutMe = observer(() => {
     return (
@@ -21,9 +19,9 @@ const AboutMe = observer(() => {
                 <Content fontSize='2xl'>
                     {LangState.getLang().aboutme}
                 </Content>
-                <Pictures>
-                    <AboutPic src={aboutme} alt='About Me Pic' />
-                </Pictures>
+                <VideoWrap>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=GK1QurF8fWs' />
+                </VideoWrap>
             </AboutWrap>
         </Wrap>
     );
@@ -35,14 +33,14 @@ const Wrap = styled.div`
     padding: 20px;
 `;
 
-const Pictures = styled(Box)`
+const VideoWrap = styled(Box)`
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%
 `;
 
 const AboutWrap = styled(Box)`
-    display: flex;
     margin: 30px 0px 10px 0px;
     border-radius: 10px;
     border-width: 1px;
@@ -54,12 +52,8 @@ const Content = styled(Text)`
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-weight: lighter;
+    font-weight: light;
     padding: 30px;
-`;
-
-const AboutPic = styled(Image)`
-    max-height: 500px;
 `;
 
 export { AboutMe };
