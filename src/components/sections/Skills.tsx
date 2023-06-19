@@ -18,6 +18,7 @@ import {
     FaWindows,
     FaApple,
     FaUbuntu,
+    FaAws,
 } from 'react-icons/fa';
 
 import {
@@ -39,6 +40,9 @@ import {
     SiMicrosoftsqlserver,
     SiTypescript,
     SiThreedotjs,
+    SiSpring,
+    SiKotlin,
+    SiIntellijidea,
 } from 'react-icons/si';
 
 import {
@@ -82,6 +86,10 @@ const Skills = observer(() => {
                         <Text>Java</Text>
                     </IconWrap>
                     <IconWrap>
+                        <SiKotlin size={iconSize} />
+                        <Text>Kotlin</Text>
+                    </IconWrap>
+                    <IconWrap>
                         <SiJavascript size={iconSize} />
                         <Text>JavaScript (ES6)</Text>
                     </IconWrap>
@@ -116,6 +124,14 @@ const Skills = observer(() => {
                     <Text fontSize={{ base: '3xl' }} padding={{ base: '5px' }}>{LangState.getLang().technologies}</Text>
                 </EntryHeader>
                 <EntryBody>
+                    <IconWrap>
+                        <FaAws size={iconSize} />
+                        <Text>AWS</Text>
+                    </IconWrap>
+                    <IconWrap>
+                        <SiSpring size={iconSize} />
+                        <Text>Spring</Text>
+                    </IconWrap>
                     <IconWrap>
                         <FaReact size={iconSize} />
                         <Text>React</Text>
@@ -198,6 +214,10 @@ const Skills = observer(() => {
                     <IconWrap>
                         <DiJira size={iconSize} />
                         <Text>JIRA</Text>
+                    </IconWrap>
+                    <IconWrap>
+                        <SiIntellijidea size={iconSize} />
+                        <Text>Intellij</Text>
                     </IconWrap>
                     <IconWrap>
                         <FaDatabase size={iconSize} />

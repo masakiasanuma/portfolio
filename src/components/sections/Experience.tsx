@@ -21,6 +21,7 @@ import {
     FaPython,
     FaDocker,
     FaDatabase,
+    FaAws,
 } from 'react-icons/fa';
 
 import {
@@ -98,6 +99,17 @@ const Experience = observer(() => {
                         </HeaderWrap>
                     </HeaderInfo>
                 </EntryHeader>
+                <EntryBody>
+                    <InfoText fontSize={{ base: 'xl' }}>{LangState.getLang().amazonFullDesc}</InfoText>
+                    <TechUsed>
+                        <IconWrap bg='#131a22' boxShadow='base'>
+                            <FaAws size={iconSize} />
+                        </IconWrap>
+                        <IconWrap bg='#131a22' boxShadow='base'>
+                            <Text paddingLeft='5px'>Bunch of internal technologies, frameworks, and tools</Text>
+                        </IconWrap>
+                    </TechUsed>
+                </EntryBody>
             </ExperienceEntry>
             <ExperienceEntry boxShadow='base'>
                 <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>

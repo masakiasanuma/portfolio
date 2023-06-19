@@ -21,6 +21,7 @@ const en = {
 
     sde: 'Software Development Engineer',
     tokyoMeguro: 'Tokyo, Japan',
+    amazonFullDesc: 'Currently working within the Points team, developing services powered by AWS to deliver a seamless experience of earning & burning points to customers using Amazon Japan\'s retail website.',
 
     sdeIntern: 'Software Development Engineer Intern',
     amazon: 'Amazon',
@@ -135,6 +136,7 @@ const jp = {
 
     sde: 'ソフトウェア開発エンジニア',
     tokyoMeguro: '東京都目黒区',
+    amazonFullDesc: '現在はポイントチームで働いており、AWSを活用したサービス開発に従事し、Amazon.co.jpを利用するお客様に円滑なポイントの獲得と利用体験を提供しています。',
 
     sdeIntern: 'ソフトウェア エンジニア インターン',
     amazon: 'Amazon',
