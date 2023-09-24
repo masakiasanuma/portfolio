@@ -20,7 +20,7 @@ const AboutMe = observer(() => {
                     {LangState.getLang().aboutme}
                 </Content>
                 <VideoWrap>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=GK1QurF8fWs' />
+                    <ReactPlayer url='https://www.youtube.com/watch?v=7YXkn67DJAM' />
                 </VideoWrap>
             </AboutWrap>
         </Wrap>
