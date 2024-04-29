@@ -11,8 +11,8 @@ const en = {
     projects: 'Projects',
     skills: 'Skills',
 
-    welcome: 'Hello!',
-    aboutme: 'My name is Masaki Asanuma, and I am currently working at Amazon Japan as a Software Development Engineer in Tokyo. I was born and raised in Southern California (Torrance) and I recently graduated from Georgia Tech with a Bachelor\'s in Computer Science. Outside work, I love to play guitar, explore various coffee roasters, and play video games!',
+    welcome: 'Hello 👋',
+    aboutme: 'My name is Masaki Asanuma, and I am a Software Engineer currently working at Amazon Japan. I was born and raised in Southern California (Torrance) and graduated from Georgia Tech with a Bachelor\'s in Computer Science. Outside of work, I enjoy playing guitar, exploring coffee roasters, reading books, playing video games, and indulging in solo karaoke sessions!',
     aboutmePic1: 'Tybee Island',
     aboutmePic2: 'Guitar',
     aboutmePic3: 'GT Drumline',
@@ -21,7 +21,7 @@ const en = {
 
     sde: 'Software Development Engineer',
     tokyoMeguro: 'Tokyo, Japan',
-    amazonFullDesc: 'Currently working within the Points team, developing services powered by AWS to deliver a seamless experience of earning & burning points to customers using Amazon Japan\'s retail website.',
+    amazonFullDesc: 'Currently working within the Points loyalty program team, developing distributed systems powered by AWS to deliver a seamless experience of earning & redeeming loyalty reward (Amazon Points, d POINTs) to customers using Amazon\'s retail website.',
 
     sdeIntern: 'Software Development Engineer Intern',
     amazon: 'Amazon',
@@ -126,8 +126,8 @@ const jp = {
     projects: 'プロジェクト',
     skills: '技術',
 
-    welcome: 'ようこそ！',
-    aboutme: '初めまして！浅沼真樹と申します。現在アマゾンジャパンでソフトウェア開発エンジニアとして働いています。南カルフォルニア（トーランス）で生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専門にして2022年12月に卒業しました。ソフトウェア開発に取り組んでいない時はギターを弾いたり、自家焙煎カフェ巡りをしています！',
+    welcome: 'ようこそ 👋',
+    aboutme: '初めまして！浅沼真樹と申します。現在アマゾンジャパンでソフトウェア開発エンジニアとして働いています。南カルフォルニア（トーランス）で生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専門にして2022年12月に卒業しました。休日にはギター・コーヒー・読書・ゲーム・一人カラオケなど様々な趣味に没頭しています！',
     aboutmePic1: 'タイビーアイランド',
     aboutmePic2: '竹の子狩り',
     aboutmePic3: '雪',

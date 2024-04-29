@@ -25,13 +25,13 @@ interface sections {
 
 // Main application component
 const App = observer(() => {
-    // Green color scheme
+    // Darker color scheme
     const accessButtonColors: sections = {
-        about: '#0DAB76',
-        experience: '#139A43',
-        education: '#0B5D1E',
-        projects: '#053B06',
-        skills: '#000000'
+        about: '#000000',
+        experience: '#0c1821',
+        education: '#1b2a41',
+        projects: '#324a5f',
+        skills: '#ccc9dc'
     };
 
     // Section flag & color state that changes on access button click

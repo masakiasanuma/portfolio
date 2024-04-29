@@ -66,7 +66,7 @@ const Experience = observer(() => {
     return (
         <Wrap>
             <Heading size='3xl'>{LangState.getLang().experience}</Heading>
-            <ExperienceEntry boxShadow='base' backgroundColor='#139A43' color='white'>
+            <ExperienceEntry boxShadow='base' backgroundColor='#0c1821' color='white'>
                 <EntryHeader flexDirection={{ base: 'column', sm: 'row' }}>
                     <Image src={amazon} alt='amazon' boxSize='100px' borderRadius='md' />
                     <HeaderInfo>
