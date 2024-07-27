@@ -12,12 +12,7 @@ const en = {
     skills: 'Skills',
 
     welcome: 'Hello 👋',
-    aboutme: 'My name is Masaki Asanuma, and I am a Software Engineer currently working at Amazon Japan. I was born and raised in Southern California (Torrance) and graduated from Georgia Tech with a Bachelor\'s in Computer Science. Outside of work, I enjoy playing guitar, exploring coffee roasters, reading books, playing video games, and indulging in solo karaoke sessions!',
-    aboutmePic1: 'Tybee Island',
-    aboutmePic2: 'Guitar',
-    aboutmePic3: 'GT Drumline',
-    aboutmePic4: 'Snow',
-    aboutmePic5: 'Graduation',
+    aboutme: 'I\'m Masaki, and I am currently working as a Software Engineer at Amazon Japan. I was born and raised in South Bay area and graduated from Georgia Tech with a Bachelor\'s in Computer Science. I am a huge coffee nerd, an impulsive guitar buyer, and someone who will never decline an invitation to karaoke. Welcome to my page!',
 
     sde: 'Software Development Engineer',
     tokyoMeguro: 'Tokyo, Japan',
@@ -127,12 +122,7 @@ const jp = {
     skills: '技術',
 
     welcome: 'ようこそ 👋',
-    aboutme: '初めまして！浅沼真樹と申します。現在アマゾンジャパンでソフトウェア開発エンジニアとして働いています。南カルフォルニア（トーランス）で生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専門にして2022年12月に卒業しました。休日にはギター・コーヒー・読書・ゲーム・一人カラオケなど様々な趣味に没頭しています！',
-    aboutmePic1: 'タイビーアイランド',
-    aboutmePic2: '竹の子狩り',
-    aboutmePic3: '雪',
-    aboutmePic4: 'ドラムライン',
-    aboutmePic5: 'ギター',
+    aboutme: '初めまして！浅沼真樹と申します。現在アマゾンジャパンでソフトウェア開発エンジニアとして働いています。南カルフォルニアで生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専門にして2022年12月に卒業しました。休日にはギター・コーヒー・読書・ゲーム・一人カラオケなど様々な趣味に没頭しています！',
 
     sde: 'ソフトウェア開発エンジニア',
     tokyoMeguro: '東京都目黒区',
