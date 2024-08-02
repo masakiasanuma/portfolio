@@ -16,7 +16,7 @@ const en = {
 
     sde: 'Software Development Engineer',
     tokyoMeguro: 'Tokyo, Japan',
-    amazonFullDesc: 'Currently working within the Points loyalty program team, developing distributed systems powered by AWS to deliver a seamless experience of earning & redeeming loyalty reward (Amazon Points, d POINTs) to customers using Amazon\'s retail website.',
+    amazonFullDesc: 'Currently working within the JP Manga team, developing distributed systems powered by AWS to deliver a seamless experience of discovering & purchasing Manga for Amazon customers. Previously worked in the Points loyalty program team, where I delivered a transaction management system and an automated payment workflow to enable third-party loyalty reward (NTT d POINTs) to be earned on Amazon.',
 
     sdeIntern: 'Software Development Engineer Intern',
     amazon: 'Amazon',
@@ -126,7 +126,7 @@ const jp = {
 
     sde: 'ソフトウェア開発エンジニア',
     tokyoMeguro: '東京都目黒区',
-    amazonFullDesc: '現在はポイントチームで働いており、AWSを活用したサービス開発に従事し、Amazon.co.jpを利用するお客様に円滑なポイントの獲得と利用体験を提供しています。',
+    amazonFullDesc: '現在はマンガチームにてAWSを活用したサービス開発に従事し、Amazonをご利用のお客様により楽しく円滑なマンガの発見・購入が行えるサービスを提供しています。以前はポイントチームでドコモとの協業プロジェクトに取り組み、dポイントをAmazonで貯められる機能を開発しました。',
 
     sdeIntern: 'ソフトウェア エンジニア インターン',
     amazon: 'Amazon',
