@@ -17,7 +17,6 @@ import {
 } from '@chakra-ui/react';
 
 import mts from '../../images/MTS.png';
-import mangadex from '../../images/mangadexterity.png';
 import portfolio from '../../images/portfolio.png';
 import neocirc from '../../images/neocirc.png';
 import rgb from '../../images/rgb.png';
@@ -28,10 +27,8 @@ import infoviz from '../../images/infoviz.png';
 import {
     FaReact,
     FaJava,
-    FaBootstrap,
     FaSwift,
     FaPython,
-    FaNodeJs,
     FaHtml5,
     FaCss3Alt,
     FaGithub,
@@ -214,40 +211,6 @@ const Projects = observer(() => {
                         <TechUsed fontSize='lg'>
                             <IconWrap>
                                 <FaJava size={iconSize} />
-                            </IconWrap>
-                        </TechUsed>
-                    </Footer>
-                </ProjectEntry>
-                <ProjectEntry width={{ base: '100%', md: '40%' }} borderWidth='1px' borderRadius='lg'>
-                    <ProjectPic src={mangadex} alt={'Mangadex'} />
-                    <Content>
-                        <Title fontSize='2xl'>
-                            {LangState.getLang().mangadex}
-                        </Title>
-                        <Description fontSize='lg'>
-                            {LangState.getLang().mangaDesc}
-                        </Description>
-                    </Content>
-                    <Footer>
-                        <ActionButton
-                            rightIcon={<FaGithub size={20} />}
-                            colorScheme='blackAlpha'
-                            onClick={() => {
-                                const win = window.open('https://github.com/Masasasaki/Mangadexterity', '_blank')!;
-                                win.focus();
-                            }}
-                        >
-                            {LangState.getLang().githubRepo}
-                        </ActionButton>
-                        <TechUsed fontSize='lg'>
-                            <IconWrap>
-                                <FaReact size={iconSize} />
-                            </IconWrap>
-                            <IconWrap>
-                                <FaNodeJs size={iconSize} />
-                            </IconWrap>
-                            <IconWrap>
-                                <FaBootstrap size={iconSize} />
                             </IconWrap>
                         </TechUsed>
                     </Footer>
