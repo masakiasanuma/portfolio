@@ -12,7 +12,7 @@ const en = {
     skills: 'Skills',
 
     welcome: 'Hello 👋',
-    aboutme: 'I\'m Masaki, and I am currently working as a Software Engineer at Amazon Japan. I was born and raised in South Bay area and graduated from Georgia Tech with a Bachelor\'s in Computer Science. I am a huge coffee nerd, an impulsive guitar buyer, and someone who will never decline an invitation to karaoke. Welcome to my page!',
+    aboutme: 'Resumes can be mundane, so this page is an attempt to dump all the information in a neatly organized fashion! Born and raised in Southern California, earned an undergrad CS degree from Georgia Tech, and currently work at Amazon Japan in the Manga department 📚',
 
     sde: 'Software Development Engineer',
     tokyoMeguro: 'Tokyo, Japan',
@@ -103,7 +103,7 @@ const en = {
     technologies: 'Technologies',
     tools: 'Tools',
     os: 'Operating Systems',
-    skillsDesc: 'Here are the programming languages, technologies, tools, & operating systems that I have used throughout my career. Some skills I am more comfortable/proficient than others, but I have been exposed to all the listed tech and I am confident that I can quickly refresh my knowledge about it. Always expanding & willing to learn new cool stuff to use in projects!',
+    skillsDesc: 'Here are some technical tools I have used to deliver projects. Always open to learn new stuff!',
 
     contentMgLeft: '100px',
 };
@@ -119,8 +119,8 @@ const jp = {
     projects: 'プロジェクト',
     skills: '技術',
 
-    welcome: 'ようこそ 👋',
-    aboutme: '初めまして！浅沼真樹と申します。現在アマゾンジャパンでソフトウェア開発エンジニアとして働いています。南カルフォルニアで生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専門にして2022年12月に卒業しました。休日にはギター・コーヒー・読書・ゲーム・一人カラオケなど様々な趣味に没頭しています！',
+    welcome: 'Hello 👋',
+    aboutme: '履歴書の情報を色々まとめてみました！南カリフォルニアで生まれ育ち、ジョージア工科大学でコンピューターサイエンスを専攻して2022年12月に卒業。現在はアマゾンジャパンのマンガ部門でソフトウェア開発エンジニアとして働いています📚',
 
     sde: 'ソフトウェア開発エンジニア',
     tokyoMeguro: '東京都目黒区',
@@ -211,7 +211,7 @@ const jp = {
     technologies: 'テクノロジー',
     tools: 'ツール',
     os: 'オペレーティングシステム',
-    skillsDesc: '今までプロジェクトやインターンシップで取得したプログラミング言語やテクノロジーなどのリストです。いつでも新しい技術を身につけたいので使った事のない技術スタックでも素早く習う自信があります！',
+    skillsDesc: '様々なプロジェクトを完遂するために使ってきたツールたち。',
 
     contentMgLeft: '120px',
 };
